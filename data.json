@@ -27469,5 +27469,6 @@
     "https://mp.weixin.qq.com/s/fm8uUcfn9ZagyUQ3OCKMDA": "【复现】Atlassian 多产品未授权任意文件读取漏洞（CVE-2026-21589）",
     "https://mp.weixin.qq.com/s/wU0irboXUX6n_rPzmZmCQQ": "我把一个目标丢给 AI 找洞，它给了我一个 RCE——也给了 27 个幻觉",
     "https://mp.weixin.qq.com/s/KpHhj-nWbkxPzVWGvwCQRA": "WordPress 严重漏洞可引发跨站脚本 (XSS)、SQL 注入及信息泄露攻击",
-    "https://mp.weixin.qq.com/s/_oVtbSSG8g_y3UEljSFFfg": "双冒号打穿Atlassian全家桶：预认证任意文件读取9.3分(CVE-2026-21589附PoC)"
+    "https://mp.weixin.qq.com/s/_oVtbSSG8g_y3UEljSFFfg": "双冒号打穿Atlassian全家桶：预认证任意文件读取9.3分(CVE-2026-21589附PoC)",
+    "https://mp.weixin.qq.com/s/-ayQDomcbhlISg89MAmCfg": "LibreOffice Calc曝(CVE-2026-63277)，恶意电子表格可绕过宏提示触发Java代码执行"
 }
