@@ -27519,5 +27519,6 @@
     "https://mp.weixin.qq.com/s/9MBD7ISCeoD5ACDTpphoJw": "nginx-ui曝高危远程代码执行漏洞(CVE-2026-107806)，管理员认证后可执行任意命令",
     "https://mp.weixin.qq.com/s/3xZ0f-1cLSQfarNIFYnI0w": "Linux KVM∕arm64 漏洞允许攻击者逃离虚拟机并获得主机访问权限",
     "https://mp.weixin.qq.com/s/_I4nOHa1HC1B2n6-GHxhlw": "OnlyOffice 前台 RCE 代码分析：五年没修干净的路径穿越，撞上 v9 的热重载",
-    "https://mp.weixin.qq.com/s/KMeV1o6pKw5Uw8rGsmCplg": "WorkBuddy 挂机开启自动挖漏洞，日入几千成本就一个电费"
+    "https://mp.weixin.qq.com/s/KMeV1o6pKw5Uw8rGsmCplg": "WorkBuddy 挂机开启自动挖漏洞，日入几千成本就一个电费",
+    "https://mp.weixin.qq.com/s/KYlCKzU36llnmZsY5UaU8w": "微软发布紧急 Exchange Server 更新以修复 CVE-2026-96940"
 }
