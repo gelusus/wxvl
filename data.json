@@ -27520,5 +27520,16 @@
     "https://mp.weixin.qq.com/s/3xZ0f-1cLSQfarNIFYnI0w": "Linux KVM∕arm64 漏洞允许攻击者逃离虚拟机并获得主机访问权限",
     "https://mp.weixin.qq.com/s/_I4nOHa1HC1B2n6-GHxhlw": "OnlyOffice 前台 RCE 代码分析：五年没修干净的路径穿越，撞上 v9 的热重载",
     "https://mp.weixin.qq.com/s/KMeV1o6pKw5Uw8rGsmCplg": "WorkBuddy 挂机开启自动挖漏洞，日入几千成本就一个电费",
-    "https://mp.weixin.qq.com/s/KYlCKzU36llnmZsY5UaU8w": "微软发布紧急 Exchange Server 更新以修复 CVE-2026-96940"
+    "https://mp.weixin.qq.com/s/KYlCKzU36llnmZsY5UaU8w": "微软发布紧急 Exchange Server 更新以修复 CVE-2026-96940",
+    "https://mp.weixin.qq.com/s/KfBQVQiY0yMo5PdLdWZebA": "Anthropic 免费开放 AI 漏洞扫描：开源软件安全，正在进入 AI 自动化时代",
+    "https://mp.weixin.qq.com/s/EYmjVeqgd3fsQGizbcIPtg": "(9.1分) CVE-2026-97670：Avada表单未授权调用任意Hook，可永久删站内容",
+    "https://mp.weixin.qq.com/s/NxBMadN-0rSYcKrQST67Lw": "震惊安全圈！百度安全开源Docker漏洞测试环境，80+真实应用即点即用",
+    "https://mp.weixin.qq.com/s/Z7jlodIgkmBr9SkzOM1IgA": "SQLite 0Day大放送：研究员一次性披露14个未公开漏洞，含一条完整RCE",
+    "https://mp.weixin.qq.com/s/QS0aJgE2W6MsPPLZZh632w": "Laranode服务器管理面板爆出任意文件写入漏洞(POC已公开)",
+    "https://mp.weixin.qq.com/s/xnaVsLS-x4RBGMO5P--x4A": "AI智能体渗透：记一次 AI 智能体绕过到 RCE 的过程",
+    "https://mp.weixin.qq.com/s/ePaxkdX3x61JzOAKofH-XQ": "【已复现】FortiMail 未授权任意文件写入漏洞，已遭在野利用",
+    "https://mp.weixin.qq.com/s/tbKGl51k694SflFEXb0XJw": "漏洞复现 | 天锐绿盾审批系统 getConfigValues.do 信息泄露漏洞",
+    "https://mp.weixin.qq.com/s/hmHlNiFOiQZqdjMu7wxVVA": "一个单引号打穿十年ORM：Exposed全版本SQL注入(CVE-2026-108474附PoC)",
+    "https://mp.weixin.qq.com/s/U5QocHhwnm_cLvwwalJiIA": "【热点安全风险】10月11日｜电力工控平台曝未认证远程代码执行漏洞，攻击者可直取电网监测系统（CVE-2026-100730）",
+    "https://mp.weixin.qq.com/s/UaE4prll9wUZlhk0W9S1RQ": "我们用开源 AI 安全代理挖出 24 个安卓漏洞的全过程"
 }
