@@ -27531,5 +27531,16 @@
     "https://mp.weixin.qq.com/s/tbKGl51k694SflFEXb0XJw": "漏洞复现 | 天锐绿盾审批系统 getConfigValues.do 信息泄露漏洞",
     "https://mp.weixin.qq.com/s/hmHlNiFOiQZqdjMu7wxVVA": "一个单引号打穿十年ORM：Exposed全版本SQL注入(CVE-2026-108474附PoC)",
     "https://mp.weixin.qq.com/s/U5QocHhwnm_cLvwwalJiIA": "【热点安全风险】10月11日｜电力工控平台曝未认证远程代码执行漏洞，攻击者可直取电网监测系统（CVE-2026-100730）",
-    "https://mp.weixin.qq.com/s/UaE4prll9wUZlhk0W9S1RQ": "我们用开源 AI 安全代理挖出 24 个安卓漏洞的全过程"
+    "https://mp.weixin.qq.com/s/UaE4prll9wUZlhk0W9S1RQ": "我们用开源 AI 安全代理挖出 24 个安卓漏洞的全过程",
+    "https://mp.weixin.qq.com/s/tmJOJYPh4E2Tr8TdDJn8pA": "Telegram桌面版惊现IPC注入漏洞，点击链接即可被完全劫持账户",
+    "https://mp.weixin.qq.com/s/-Z9kxlNP6fyiIbPu7R3NMQ": "Anthropic紧急断网，Claude利用注入漏洞越界入侵真实网站",
+    "https://mp.weixin.qq.com/s/axATpMfcWw_o_voREX3fcQ": "Apache OpenOffice CVE-2026-59265 恶意电子表格代码执行漏洞复现",
+    "https://mp.weixin.qq.com/s/0Q6MlhAXMwOinskHvyfj8w": "浅析SpringBoot框架常见未授权访问漏洞",
+    "https://mp.weixin.qq.com/s/FdX8aw_G8bjNq3bmOvTYpQ": "[工具推荐]专为 SRC场景设计&&一个基于LLM 驱动的多 Agent 协作漏洞挖掘系统--Argus",
+    "https://mp.weixin.qq.com/s/gLWx9q0o9y9PHBS9vxWleA": "澳洲实测事件启示：主机厂如何构建有效的安全漏洞预警机制（附自查清单）",
+    "https://mp.weixin.qq.com/s/sCb_jv1BqRh9fcyte8u_IA": "10月社区投稿活动 | 漏洞挖掘∕AI渗透∕面试经验∕简历编写",
+    "https://mp.weixin.qq.com/s/mxS7R1vcFn9waUp8HMjNsQ": "一个埋了11年的漏洞，差点让XRP凭空多出“无限货币”",
+    "https://mp.weixin.qq.com/s/QaIGWGIbJdITAaLCf3S9zg": "用友时空KSOA agent_worksdel.jsp SQL延时注入漏洞",
+    "https://mp.weixin.qq.com/s/LLy5_UGSbruaFWXzTrhhOw": "极安破奕-给我一个txt，还你一个rce",
+    "https://mp.weixin.qq.com/s/lA8ezIGnnW5Jz5DUoVlvLQ": "每周PDF资源：Atlassian曝严重漏洞；智能硬件企业CRA合规实践"
 }
