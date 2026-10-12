@@ -1,6 +1,5 @@
 #  从边缘入口到内网rce  
-原创 kk
-                    kk  Yfansec   2026-10-07 18:11  
+ 进击安全   2026-10-12 01:30  
   
 漏洞挖掘本质就是做对抗，也是和系统开发者做攻防，比如开发不让你注册，怎么绕过突破注册，上waf，cdn，反代理，做鉴权这些都是防护方式。怎么绕过突破就是核心点。  
   
@@ -228,8 +227,43 @@ payload
   
 SSO 鉴权、网关白名单、WAF 关键词、OGNL 沙箱，不出王回显，一层绕了一次。报错里读判定逻辑，矩阵里找放行形态，源码里找求值路径，每次都是绕过突破对抗。  
   
-广告区：  
   
-团队承接各类安全项目，具体可看：[攻防/渗透/审计 CTF · 我们能做什么](https://mp.weixin.qq.com/s?__biz=Mzg3Mzg0NDcxMA==&mid=2247483764&idx=1&sn=1ea841f2a95888eb73df9d84aa360b15&scene=21#wechat_redirect)  
+广告区：AI+赋能安全第六期课程  
+  
+渗透方向  
+  
+![图片](https://mmbiz.qpic.cn/mmbiz_png/Dfrm5V3o6kRwzLslDKx6HJHHyS26j1AIFTy3C32lOw18ibzNsBTcsDMK08ybTICWNZSliaxwLbcnzKY8CBCOh4K7bliaK3EeqHM49ucvNyIhN4/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=10 "")  
+  
+![](https://mmbiz.qpic.cn/mmbiz_png/Dfrm5V3o6kQenHzYYrG1LNsQb5zgAK5ahptb1sSLBvUlw8ydDDF9BcBU2rhNcUiaBCQU2rYMaGQcuo2tTIheEJrOwL9rhlhic4CRwgn1mKib6s/640?wx_fmt=png&from=appmsg "")  
+  
+第六期为AI赋能课程已开始，这里赋能方向暂定，渗透，审计，攻防，占位（最后还没想好），还是一样，一次报名一直可看，包含往期以及最新课程。  
+  
+但是小朋友一直都是先要说服自己，再去做相关的教学，如果什么都不做，没有一些拿的出来的成果做培训也站不住脚，特别是在AI如此高速迭代的时代背景下。  
+  
+下面放一些小朋友的成果截图，以及相关的第六期AI课程安排。  
+  
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/Dfrm5V3o6kRD0q32vRNWD9rV0mOvBvkHGucLVNib2lbicEd9WHiaDEYia07b7f1gLLyAGtwC3icOs5fBqdkEqUFeRgRicNd72xaiaMz0fxmdcV4xxI/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=11 "")  
+  
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/Dfrm5V3o6kRX0tIMAIZDHGoj3LTjoebrwicrlg1QY2ptwfq8wsASzUJia18aYt6N60lYPFE2UO85GCY1A6P2ibSaoflNRG3IAXMjm0ljjHicCU0/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=12 "")  
+  
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/Dfrm5V3o6kTBhNyJ5OuSyFeshyALRWBia9vRDhmZkwjDWZMtC3gGiaAgnAcOYrR6pKCXmL9Obia81UAicZ8UdGz8XkbTKWvgs5ZoT1KMfQpLGAs/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=13 "")  
+  
+![图片](https://mmbiz.qpic.cn/mmbiz_png/Dfrm5V3o6kTkllZemrfy4RNnJiab8IstcYdFdpc7iaUgTRwQibIgZAETOZYJs5FxKLHo637L8NEXAnoyicJeo8DlHfWSm4uGT01zVbqbj9b4Ieg/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=14 "")  
+  
+![图片](https://mmbiz.qpic.cn/mmbiz_png/Dfrm5V3o6kRsGe8YMDicpREOjgJe9GkkkkmX4d6PPyklFBkUGF0cmlIgql2gz6oy1dpEiboREVy3F9Go0sMBu5Kx5BicHVkCe9EFiaGIkicNkFCc/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=15 "")  
+  
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/Dfrm5V3o6kQPAY46picibLbwmlK0LjDicdUAOxF4ib9DkibicFDmeEschKnQDY6NQ7SfeI8cfNGJqNGb6nv4QA94aANHr1B5t1PWDkUOPFAlRuD8Y/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=16 "")  
+  
+![图片](https://mmbiz.qpic.cn/mmbiz_png/Dfrm5V3o6kRIkKvF2nLdRLCoJdCybp3FcQOycsV4uhSVElvWCFr2RId0ia0RvjVOC6EA2QVIUGN69obVHLFnObRiaUzTPnqUfzynqSawSDMF4/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=17 "")  
+  
+这里还有部分相关的没有审核的漏洞就暂时不放出来了兄弟们，漏洞类型其中包含了rce以及sql注入未授权用户接管，APP，和小程序，WEB等都有，但是目前兄弟们也发现了，SRC慢慢的开始也在使用AI对安全方面进行自我消耗，个大SRC陆续关闭暂停，这也是为什么刚开始说做SRC课程最后转变为渗透课程，不仅仅是教大家如何在SRC上用AI漏洞挖掘，同时也是如果在在渗透项目当中降低自己的时间精力成本获得更有质量的交付水准，同期AI攻防目前也在筹备了，这里主要给兄弟们汇报渗透方向。  
+  
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/Dfrm5V3o6kQv5snr6ROLETs7g04FicD0sNFIQfYFibkPL1a7sjicibFAKTjIEKWM3O9zQHUJ3mPaJg8Zpx6yYFyJEA3p6ibACxickUWjrO6Wia0d7g/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=23 "")  
+  
+五、往期课程  
+```
+```  
+  
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/Dfrm5V3o6kQv5snr6ROLETs7g04FicD0sNFIQfYFibkPL1a7sjicibFAKTjIEKWM3O9zQHUJ3mPaJg8Zpx6yYFyJEA3p6ibACxickUWjrO6Wia0d7g/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=23 "")  
   
   
