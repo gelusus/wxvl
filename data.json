@@ -27629,5 +27629,6 @@
     "https://mp.weixin.qq.com/s/zzGpGmXSSvHCxpKpEwMHwg": "全网最全POC 可搭建漏洞库",
     "https://mp.weixin.qq.com/s/mlh9pX_0BnZyZ5gdNlM3og": "AI在漏洞挖掘中的辅助作用",
     "https://mp.weixin.qq.com/s/qq8Lj_tTWvy4JGAm9nXKHQ": "【高危漏洞预警】GitLab CI∕CD正则编译器整数溢出远程代码执行漏洞CVE-2026-97229",
-    "https://mp.weixin.qq.com/s/vU1_7w6GImYuSnDOueBr2g": "赛博安全狗：IBM i 7.3∕7.4∕7.5∕7.6存在非常严重的代码注入漏洞CVE-2026-93886 (10.13)"
+    "https://mp.weixin.qq.com/s/vU1_7w6GImYuSnDOueBr2g": "赛博安全狗：IBM i 7.3∕7.4∕7.5∕7.6存在非常严重的代码注入漏洞CVE-2026-93886 (10.13)",
+    "https://mp.weixin.qq.com/s/qL4HAhOxMCnRvAx_TYzI3A": "Cisco Nexus交换机存在严重漏洞，未经身份验证的攻击者可利用这些漏洞以root权限执行代码"
 }
