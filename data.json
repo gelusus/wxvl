@@ -27590,5 +27590,11 @@
     "https://mp.weixin.qq.com/s/k09QSYkVVMTJKP7CruFWCQ": "CVE-2026-66804 Windows COM 提权",
     "https://mp.weixin.qq.com/s/Rpxrm2k19dwXUE3Hpi2rLw": "CVSS满分10.0！WordPress Bricksforge插件无认证RCE漏洞，现已被野外利用",
     "https://mp.weixin.qq.com/s/LpqBAv09e6qN99rIhS7cfg": "AI挖洞实战 02｜Workbuddy+Skill技能库，完整复现高危文件上传漏洞",
-    "https://mp.weixin.qq.com/s/KLTabsyKBHVfbJxbEzeoRg": "REA逆向一切！渗透逆向新利器、MCP 驱动全栈逆向方案，解析原生二进制、EXE、APK，高效挖掘程序底层漏洞"
+    "https://mp.weixin.qq.com/s/KLTabsyKBHVfbJxbEzeoRg": "REA逆向一切！渗透逆向新利器、MCP 驱动全栈逆向方案，解析原生二进制、EXE、APK，高效挖掘程序底层漏洞",
+    "https://mp.weixin.qq.com/s/Mko0iLQgm-BZqQ-YCstoWQ": "GraphQL 漏洞 Part-2：深度嵌套 DoS、IDOR 越权与错误消息泄漏实战",
+    "https://mp.weixin.qq.com/s/Lr-v9zBJqmMPZoES6epLwQ": "漏洞预警 | Telegram Desktop IPC记录注入漏洞",
+    "https://mp.weixin.qq.com/s/IeNckCVu-Dgtj2C4jYyzqg": "LMCache 严重远程代码执行漏洞仍未修复，公开的 PoC 漏洞利用程序已发布",
+    "https://mp.weixin.qq.com/s/m9UJaNZ2yT0Sr7qVlvu5DQ": "赛博安全狗：pH7Builder 旧版本存在硬编码 API 密钥绕过漏洞 (10.12)",
+    "https://mp.weixin.qq.com/s/uddPSvCaNinql5Z7tcONjA": "Nacos 综合漏洞利用工具（重构版）",
+    "https://mp.weixin.qq.com/s/DPdme7WEibuFwEglRtJG4A": "漏洞预警 | PostgreSQL符号链接跟随漏洞"
 }
