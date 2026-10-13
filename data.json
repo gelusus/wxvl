@@ -27624,5 +27624,10 @@
     "https://mp.weixin.qq.com/s/9-frdIprNeRZa5i-X-kHvQ": "10月社区投稿活动 | 漏洞挖掘∕AI渗透∕面试经验∕简历编写",
     "https://mp.weixin.qq.com/s/rzqymjBJ9rKJM4hEenB2Dg": "9月高危漏洞速览：10个必须修复的安全漏洞（附详解）",
     "https://mp.weixin.qq.com/s/2Kki1jFFYFXSbrH2Xx2PAA": "【漏洞通告】GitLab正则表达式验证不足导致未授权远程代码执行漏洞（CVE-2026-97229)",
-    "https://mp.weixin.qq.com/s/tQ3NSlCGVf1mBtKwJl4SAg": "TOZED X300 5G路由器曝CVSS 10.0命令注入漏洞，未认证攻击者可获取Root权限，暂无修复补丁(CVE-2026-108576)"
+    "https://mp.weixin.qq.com/s/tQ3NSlCGVf1mBtKwJl4SAg": "TOZED X300 5G路由器曝CVSS 10.0命令注入漏洞，未认证攻击者可获取Root权限，暂无修复补丁(CVE-2026-108576)",
+    "https://mp.weixin.qq.com/s/KsSLru3cu1tJdtwUPXrctw": "AI 挖洞越来越快，为什么企业的漏洞还是修不完？",
+    "https://mp.weixin.qq.com/s/zzGpGmXSSvHCxpKpEwMHwg": "全网最全POC 可搭建漏洞库",
+    "https://mp.weixin.qq.com/s/mlh9pX_0BnZyZ5gdNlM3og": "AI在漏洞挖掘中的辅助作用",
+    "https://mp.weixin.qq.com/s/qq8Lj_tTWvy4JGAm9nXKHQ": "【高危漏洞预警】GitLab CI∕CD正则编译器整数溢出远程代码执行漏洞CVE-2026-97229",
+    "https://mp.weixin.qq.com/s/vU1_7w6GImYuSnDOueBr2g": "赛博安全狗：IBM i 7.3∕7.4∕7.5∕7.6存在非常严重的代码注入漏洞CVE-2026-93886 (10.13)"
 }
