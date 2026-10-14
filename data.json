@@ -27698,5 +27698,6 @@
     "https://mp.weixin.qq.com/s/HMUyySLGWsDUkhyXznwbDw": "思科警告：ISE 存在严重零日漏洞，已被攻击者利用",
     "https://mp.weixin.qq.com/s/puX4nw5nAjnky1RUUFz76g": "黑客利用思杰NetScaler 0Day漏洞，部署Platypus远控工具",
     "https://mp.weixin.qq.com/s/Z86xmQbCREytPIMXsY5iCw": "Docker修复Docker Hub存续两年高危漏洞，可冒用他人身份推送镜像",
-    "https://mp.weixin.qq.com/s/pTmMCIzHzVzN4T0ZubvRCQ": "漏洞复现｜西部数码 NAS login_mgr.cgi 存在命令执行漏洞"
+    "https://mp.weixin.qq.com/s/pTmMCIzHzVzN4T0ZubvRCQ": "漏洞复现｜西部数码 NAS login_mgr.cgi 存在命令执行漏洞",
+    "https://mp.weixin.qq.com/s/-RKtac9xjoBN6w9e4nRZOQ": "Curl客户端任意代码执行，还是Anthropic最新的OSS Scaner挖的？"
 }
