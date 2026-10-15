@@ -27720,5 +27720,15 @@
     "https://mp.weixin.qq.com/s/8p3thSsmkkPFFs7KZuzN-Q": "Splunk爆出9.8分高危漏洞【PoC已公布】",
     "https://mp.weixin.qq.com/s/nbdaXVu2erBZnR3l3dO37g": "CISA 警告管理员立即修复被利用为零日漏洞的 Ivanti 漏洞",
     "https://mp.weixin.qq.com/s/8-Urepp7voEW992Hf-6kQQ": "Linux vhost 漏洞 PoC 公开，虚拟化边界需要重新核对",
-    "https://mp.weixin.qq.com/s/9pqzTUL8x_TEr8PXRjx_Pw": "从0-1：AI自动化漏洞挖掘实战训练营"
+    "https://mp.weixin.qq.com/s/9pqzTUL8x_TEr8PXRjx_Pw": "从0-1：AI自动化漏洞挖掘实战训练营",
+    "https://mp.weixin.qq.com/s/0HDWNmL-9UqowHDK00cXcg": "NGINX 爆出 3 个高危漏洞！可远程使服务崩溃，特定条件下可代码执行",
+    "https://mp.weixin.qq.com/s/ol3DAgd2ptMXGZiWp5-DdQ": "Palo Alto：PAN-OS RCE 漏洞已遭利用",
+    "https://mp.weixin.qq.com/s/02GL2fVon90Z5ALCWISrcA": "「AI漏洞挖掘+漏洞赏金侦察+7问验证闸门：Agentic Bug Hunter开源拆解」",
+    "https://mp.weixin.qq.com/s/B3APEhizoOF2zg7qEAI3Rg": "「关键漏洞目录」新增「GitLab CE∕EE整数溢出漏洞(CVE-2026-97229)」等5个漏洞",
+    "https://mp.weixin.qq.com/s/cVoUeYbTcbTFypI5Zdowng": "GitLab 未授权 RCE（CVE-2026-97229）紧急预警，自建实例请立即升级 19.4.2 ∕ 19.3.5 ∕ 19.2.8 POC",
+    "https://mp.weixin.qq.com/s/CkkajPHxj83J0-p4LIKbCw": "自动化挖掘驱动漏洞",
+    "https://mp.weixin.qq.com/s/6TaIJHUOfWJa5wmQmhuJLw": "全球具身智能应用创新挑战赛·漏洞挖掘挑战赛决赛晋级名单及优胜奖名单公布",
+    "https://mp.weixin.qq.com/s/b1SRiK0m9NzC0YF5Mx2Wqg": "10月社区投稿活动 | 漏洞挖掘∕AI渗透∕面试经验∕简历编写",
+    "https://mp.weixin.qq.com/s/tc31rSMQ1CR_d4DW3jvVGg": "漏洞报告越积越多，整改究竟堵在补证、验证还是交接",
+    "https://mp.weixin.qq.com/s/f31YdPqlvtSeoFcfU99iXw": "赛博安全狗：GitPython远程辅助组件存在注入漏洞（CVE-2026-110857） (10.15)"
 }
