@@ -27765,5 +27765,21 @@
     "https://mp.weixin.qq.com/s/7alu9oDcoJwMxNXk0ZKBeQ": "谷歌跳过 Gemini3.5，Gemini4 Argon 正式发布强化网络安全防御能力；CNCERT周报：后门网站与新增漏洞双升，仿冒攻击仍锁定银行政务| 牛览",
     "https://mp.weixin.qq.com/s/t0uvc5ywro-TC_KocApdQw": "中国版Mythos|灵脉CodeAI：AI代码漏洞挖掘的智能进阶之路",
     "https://mp.weixin.qq.com/s/t73cbOuQ6JtUODCzgT5YDg": "日口令绕过到 RCE：拆 Danfoss 超市冷柜控制器三条 CVE",
-    "https://mp.weixin.qq.com/s/3KahrEnTP35wz6boxK99cw": "漏洞复现 | 紫光电子档案管理系统 downLoad 文件读取漏洞"
+    "https://mp.weixin.qq.com/s/3KahrEnTP35wz6boxK99cw": "漏洞复现 | 紫光电子档案管理系统 downLoad 文件读取漏洞",
+    "https://mp.weixin.qq.com/s/hRZaKRg8OGHfAV1x7T8OGg": "ChatGPT GitHub连接器存严重漏洞，攻击者可窃取私有仓库密钥",
+    "https://mp.weixin.qq.com/s/a2ommAMgmPiahK-mX-DURA": "【漏洞通告】Windows 健康与优化体验服务权限提升漏洞(CVE-2026-85884)",
+    "https://mp.weixin.qq.com/s/dvMj_VJ8zeaCmCWtjJqJPw": "10月Next.js未授权远程代码执行漏洞链分析",
+    "https://mp.weixin.qq.com/s/hGzub_zM5pQ78BUJm97H_w": "59% 的汽车安全漏洞，都在你的车机和 T-Box 里",
+    "https://mp.weixin.qq.com/s/hjYIfLaekV6If-6quIIzcw": "Citrix XenServer 存在多个高危漏洞，虚拟机内高权限用户可攻陷宿主机",
+    "https://mp.weixin.qq.com/s/Rb_Tq5UQddQYbrIObmPn6Q": "Next.js 紧急修复两个严重的 RCE 漏洞",
+    "https://mp.weixin.qq.com/s/aheZ8PlRLmitUjHchOaBTg": "别让安全配置的疏漏，成为企业网络防御的致命漏洞",
+    "https://mp.weixin.qq.com/s/enuho7Zcuro-tlt_2bWGzg": "CNNVD关于微软多个安全漏洞的通报",
+    "https://mp.weixin.qq.com/s/L8B0JcF9u0qjDj5qXgK4Aw": "SDC2026议题预告 | ZeroMDASH：领域自适应的Agent-Native通用漏洞挖掘工程",
+    "https://mp.weixin.qq.com/s/dv66RLXRoEGxaea7oHaTbg": "【复现】GitLab正则表达式编译器未授权远程代码执行漏洞（CVE-2026-97229）",
+    "https://mp.weixin.qq.com/s/F-15fTyI12jVd-SRhb9sOw": "【已复现】CVE-2026-110447 Nextcloud 内置 Collabora 未认证 命令执行漏洞",
+    "https://mp.weixin.qq.com/s/o1wouUrlAHCXUP6uX5fbUQ": "【已复现】CVE-2026-76519 Cisco Secure Email Gateway 任意文件写入漏洞",
+    "https://mp.weixin.qq.com/s/HXQ8io4JvsQorAVk9Z-fug": "Next.js 曝出严重漏洞：可导致未授权远程代码执行 (RCE)",
+    "https://mp.weixin.qq.com/s/OtN2kVEfiSai68TZdXuEaQ": "当漏洞挖掘遇上 AI Agent：主流企业防火墙 0day 挖掘实战",
+    "https://mp.weixin.qq.com/s/z8IFXcN5B4r7wLjKelFReQ": "红队实战指南：AI驱动的渗透测试、红队评估和漏洞挖掘",
+    "https://mp.weixin.qq.com/s/qoyWigfL25Yn96yUGUTS5A": "关于双十一期间暂停授权测试及漏洞收录的通知"
 }
