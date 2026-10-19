@@ -27843,5 +27843,7 @@
     "https://mp.weixin.qq.com/s/P7Ds7Hz9vV3cDJ7jGui6gQ": "AI安全案例分析｜智能体绕过 Vercel 沙箱隔离外泄数据",
     "https://mp.weixin.qq.com/s/k_vdXgNabCTaAfSeWVXn3A": "畅捷通T+ GLSyncService.asmx接口存在任意文件读取漏洞  附POC",
     "https://mp.weixin.qq.com/s/THzZBUrz6_v7EghdXFiYfg": "比特币早期客户端被成功复现: 从编译器到WinRAR，逐字节还原中本聪的发布流程",
-    "https://mp.weixin.qq.com/s/652cKBtxkbPOA6CH6JrGog": "同一个漏洞，两种 payload： Zen Cart 零权限 RCE 的两次实战"
+    "https://mp.weixin.qq.com/s/652cKBtxkbPOA6CH6JrGog": "同一个漏洞，两种 payload： Zen Cart 零权限 RCE 的两次实战",
+    "https://mp.weixin.qq.com/s/Hg6fdqTYioILT7ooKP8-BA": "换模型不如换架构：52 组实测之后，AI Agent 挖漏洞真实排名",
+    "https://mp.weixin.qq.com/s/gROVYJlbaUS0XI30QbXPrg": "WordPress 的严重漏洞允许攻击者在无需身份验证的情况下执行远程代码"
 }
