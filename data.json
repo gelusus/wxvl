@@ -27871,5 +27871,15 @@
     "https://mp.weixin.qq.com/s/L1KhsRL69-n1_qqTQDpa2Q": "Laravel TokenGuard 严重漏洞（CVSS 9.2）可让攻击者以任意用户身份登录",
     "https://mp.weixin.qq.com/s/d89_bsvskL65NshHTaV_Tg": "连密码都不用！博通WiFi曝0day隔空秒拿ROOT",
     "https://mp.weixin.qq.com/s/zPIdFMstSJlkbKkwK42eQg": "Pwn2Own 汽车赛事：漏洞、利用与经验总结",
-    "https://mp.weixin.qq.com/s/BHpeTLmhaUX4kjuh8NICoQ": "【漏洞预警】linux内核漏洞(POC已公开)已有 Android∕ARM64 的利用实现CVE-2026-98260"
+    "https://mp.weixin.qq.com/s/BHpeTLmhaUX4kjuh8NICoQ": "【漏洞预警】linux内核漏洞(POC已公开)已有 Android∕ARM64 的利用实现CVE-2026-98260",
+    "https://mp.weixin.qq.com/s/XP6JzjoQl76kQub5H5pXFw": "CVE-2026-104935固件分析(附exp)",
+    "https://mp.weixin.qq.com/s/dGk0dTXwuk7hwLpUqcMR4A": "一个漏掉的过滤，一个空掉的名单： 用友 GRP-U8 的两条零权限 RCE",
+    "https://mp.weixin.qq.com/s/HO65vIMMJFgKuLLBzR6GeA": "月下载9000万次的AI网关LiteLLM曝双漏洞：低权限账号就能偷走你所有API密钥",
+    "https://mp.weixin.qq.com/s/zhMAOnQjsYHKtU502VMdqQ": "Progress 修复12个MOVEit Transfer 高危漏洞",
+    "https://mp.weixin.qq.com/s/1ACjf2mQZdz8DhNnMdoTOg": "【漏洞通告】Windows Shell 安全功能绕过漏洞（CVE-2026-96951)",
+    "https://mp.weixin.qq.com/s/m8hns8OG0kIbJiAarDFrxg": "AI挖洞实战 08 | Workbuddy+Skill技能库，文件上传漏洞",
+    "https://mp.weixin.qq.com/s/a7Qch0B5HyuG-6p5ZKmRMg": "CVE靓号—9.3高分漏洞CVE-2026-99999分析",
+    "https://mp.weixin.qq.com/s/72CCdOgrNAZ8NQcv201IWw": "10月社区投稿活动 | 漏洞挖掘∕AI渗透∕面试经验∕简历编写",
+    "https://mp.weixin.qq.com/s/sL0JE9_97TNpAlAueSsAoA": "公司修漏洞时又被攻击，30万台设备被控案还留下什么",
+    "https://mp.weixin.qq.com/s/NyvavsVJ_-BWad-cSF6gUA": "F5 紧急修复多个 NGINX 高危漏洞"
 }
