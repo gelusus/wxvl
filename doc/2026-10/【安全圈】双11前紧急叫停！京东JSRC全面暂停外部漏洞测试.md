@@ -1,0 +1,112 @@
+#  【安全圈】双11前紧急叫停！京东JSRC全面暂停外部漏洞测试  
+ 安全圈   2026-10-20 11:00  
+  
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/aBHpjnrGylgOvEXHviaXu1fO2nLov9bZ055v7s8F6w1DD1I0bx2h3zaOx0Mibd5CngBwwj2nTeEbupw7xpBsx27Q/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1 "")  
+  
+  
+**关键词**  
+  
+  
+  
+京东  
+  
+  
+**核心事件快报**  
+：京东安全应急响应中心（JSRC）正式发布公告，自 2026 年 10 月 16 日 19:00 起至 11 月 18 日 19:00 止，在长达一个月的双十一大促重保周期内，全面暂停授权外部白帽子开展对京东所有产品、业务系统及相关资产的安全测试，并同步暂停收录相关漏洞报告。官方明确警告：暂停期间，任何针对京东资产的测试行为一律定性为未经授权的违规测试，违者将面临账号永久封禁、没收奖励乃至依法追究法律责任的严厉处置。  
+  
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/sbq02iadgfyHhSeMiastLK4uKn4NeL5bYxrlb5hUnuW2UWFqyJibYR9ia5eVOTo70JdCVLnIbaRsQ3hI7MK3cF0OmBFv4u1ajwBMbEPhOzojdKc/640?wx_fmt=jpeg&from=appmsg "")  
+## 🔍 禁令导火索：AI自动化渗透失控与生产环境干扰  
+  
+在官方发布的通知与近期的违规处置公告中，JSRC 直接指出了此次紧急叫停的核心诱因：**多起白帽子使用 AI 自动化渗透工具 / 智能体（Agent）在测试过程中严重失控**  
+。  
+  
+大模型与自动化渗透测试工具在 2026 年迅速普及，但部分测试人员在缺乏严格速率限制与环境隔离的情况下，直接将自动化脚本接入京东线上生产接口，导致多项高危违规行为集中爆发：  
+- **破坏性 Payload 高频狂轰**  
+：AI 自动化测试脚本脱离人工干预，高并发发送大量未经过滤的模糊测试（Fuzzing）载荷，直接冲击后端网关与微服务集群。  
+  
+- **生产环境稳定性遭实质性干扰**  
+：部分测试直接穿透业务缓存，打满核心数据库连接池，造成局部业务接口响应延迟飙升，对正常用户的访问与交易产生干扰。  
+  
+- **大促前夕系统零容错**  
+：当前正值双十一流量洪峰前夕，电商平台的营销活动、秒杀库存、支付结算与履约仓配系统全部处于超高负荷压测与重保状态，任何由外部未受控测试引发的系统抖动，均属于不可接受的业务风险。  
+  
+## ⚡ 行业深层痛点：AI生成式漏洞报告引发企业端挤兑  
+  
+京东的“一刀切”暂停，也是 2026 年下半年国内互联网安全应急响应（SRC）生态剧烈变动的一个缩影。随着生成式 AI 工具成为黑白两道的标配，企业 SRC 正在承受前所未有的双重挤压：  
+- **垃圾报告海啸淹没审核团队**  
+：白帽子利用大模型自动化生成漏洞文档，导致大量存在“AI 幻觉”、夸大威胁等级、缺乏实际验证逻辑或纯属配置误读的低质报告暴增数倍，严重挤占了企业有限的专业安全审核资源。  
+  
+- **授权边界日益模糊**  
+：传统 SRC 建立在白帽子“人工、精准、克制”测试的默契之上，而自动化 Agent 却具备自主发散扫描的特性，极易突破原本划定的测试域名与系统边界。  
+  
+- **合规防线集体收紧**  
+：此前已有平安、自如、网易、vivo、讯飞等企业相继关闭、迁移或阶段性暂停外部测试。京东此次在双十一核心节点全面叫停，代表着头部企业在面对失控的外部自动化测试时，选择彻底关上大门进行“物理避险”。  
+  
+## 🛡️ 处置细则与 JSRC 划定的 AI 测试三条红线  
+  
+在通报违规案例与暂停期间的规则中，JSRC 明确给出了严肃处理办法以及白帽子后续必须严格恪守的技术边界：  
+- **违规惩戒与法律责任**  
+：暂停期间继续测试者，一经监控捕获，平台将执行账号限制、封号一个月至永久封禁，取消全部奖励及成长分；若因测试造成系统异常、服务抖动或数据泄露，京东保留依据《网络安全法》《数据安全法》《网络产品安全漏洞管理规定》《个人信息保护法》依法追究民事与刑事责任的权利。  
+  
+- **红线一：严禁 AI 直连生产环境**  
+：AI 工具仅允许作为测试思路启发、漏洞报告文字整理、源代码分析理解或 Payload 风险评估等离线辅助手段，绝对禁止将大模型工具或自动化 Agent 直接串接京东生产接口执行自动化探测。  
+  
+- **红线二：恪守“最小化、可控、可回溯”原则**  
+：漏洞 PoC 验证必须以证明逻辑缺陷为限，严禁并发压测、严禁利用漏洞批量篡改数据，禁止在测试中留下任何破坏性脏数据。  
+  
+- **红线三：严禁数据读取与拖库**  
+：任何涉及越权、注入的场景，严禁批量读取真实用户个人信息、交易数据或商业秘密，严禁拖库，严禁将企业敏感信息输入未受控的公有大模型中。  
+  
+JSRC 强调，暂停期结束后（2026 年 11 月 18 日 19:00 之后），将视大促后业务恢复情况通过官方公众号另行发布开放收录安排。  
+  
+  
+ END    
+  
+  
+阅读推荐  
+  
+  
+[【安全圈】连密码都不用！博通WiFi曝0day隔空秒拿ROOT](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652079403&idx=1&sn=21c4f345cc81f0721be1f3a465c9026c&scene=21#wechat_redirect)  
+  
+  
+  
+[【安全圈】密码MFA全成摆设！黑客借云备份打穿数百企业M365](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652079403&idx=2&sn=cb2f9ac966ca8ee1464bccf38c83517c&scene=21#wechat_redirect)  
+  
+  
+  
+[【安全圈】一夜被盗刷上千刀！OpenCode失陷大模型Key全泄](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652079403&idx=3&sn=f20efa338f57605e69383fafbd726697&scene=21#wechat_redirect)  
+  
+  
+  
+[【安全圈】Skyticket 旅行预订网站遭黑客攻击，6140 名平台用户信用卡信息外泄](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652079392&idx=1&sn=21e75e487b508bd20850baafe3114343&scene=21#wechat_redirect)  
+  
+  
+  
+  
+![](https://mmbiz.qpic.cn/mmbiz_gif/aBHpjnrGylgeVsVlL5y1RPJfUdozNyCEft6M27yliapIdNjlcdMaZ4UR4XxnQprGlCg8NH2Hz5Oib5aPIOiaqUicDQ/640?wx_fmt=gif "")  
+  
+  
+  
+![](https://mmbiz.qpic.cn/mmbiz_png/aBHpjnrGylgeVsVlL5y1RPJfUdozNyCEDQIyPYpjfp0XDaaKjeaU6YdFae1iagIvFmFb4djeiahnUy2jBnxkMbaw/640?wx_fmt=png "")  
+  
+**安全圈**  
+  
+![](https://mmbiz.qpic.cn/mmbiz_gif/aBHpjnrGylgeVsVlL5y1RPJfUdozNyCEft6M27yliapIdNjlcdMaZ4UR4XxnQprGlCg8NH2Hz5Oib5aPIOiaqUicDQ/640?wx_fmt=gif "")  
+  
+  
+←扫码关注我们  
+  
+**网罗圈内热点 专注网络安全**  
+  
+**实时资讯一手掌握！**  
+  
+  
+![](https://mmbiz.qpic.cn/mmbiz_gif/aBHpjnrGylgeVsVlL5y1RPJfUdozNyCE3vpzhuku5s1qibibQjHnY68iciaIGB4zYw1Zbl05GQ3H4hadeLdBpQ9wEA/640?wx_fmt=gif "")  
+  
+**好看你就分享 有用就点个赞**  
+  
+**支持「****安全圈」就点个三连吧！**  
+  
+![](https://mmbiz.qpic.cn/mmbiz_gif/aBHpjnrGylgeVsVlL5y1RPJfUdozNyCE3vpzhuku5s1qibibQjHnY68iciaIGB4zYw1Zbl05GQ3H4hadeLdBpQ9wEA/640?wx_fmt=gif "")  
+  
+  

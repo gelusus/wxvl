@@ -27881,5 +27881,21 @@
     "https://mp.weixin.qq.com/s/a7Qch0B5HyuG-6p5ZKmRMg": "CVE靓号—9.3高分漏洞CVE-2026-99999分析",
     "https://mp.weixin.qq.com/s/72CCdOgrNAZ8NQcv201IWw": "10月社区投稿活动 | 漏洞挖掘∕AI渗透∕面试经验∕简历编写",
     "https://mp.weixin.qq.com/s/sL0JE9_97TNpAlAueSsAoA": "公司修漏洞时又被攻击，30万台设备被控案还留下什么",
-    "https://mp.weixin.qq.com/s/NyvavsVJ_-BWad-cSF6gUA": "F5 紧急修复多个 NGINX 高危漏洞"
+    "https://mp.weixin.qq.com/s/NyvavsVJ_-BWad-cSF6gUA": "F5 紧急修复多个 NGINX 高危漏洞",
+    "https://mp.weixin.qq.com/s/5ayMlw3B2jO4nTJ76TT_mQ": "安全419｜一周国际网安资讯：Proofpoint 63亿美元收购Varonis，CISA单周9个在野漏洞催修复",
+    "https://mp.weixin.qq.com/s/bYzGVZCyIb2sO-dH_YWTTg": "漏洞速递 | CVE-2026-108097 Drupal RCE漏洞（附下载）",
+    "https://mp.weixin.qq.com/s/-U6_L1S5mE2NgGdcyVnMmw": "【高危漏洞预警】Drupal Field UI远程代码执行漏洞(CVE-2026-108097)",
+    "https://mp.weixin.qq.com/s/Gg8tbK02EZLdg6-yZv4Y_g": "记一次有趣的逻辑漏洞挖洞经历",
+    "https://mp.weixin.qq.com/s/cIzQxn-clIRd-KsC89CU6Q": "SPIP X-Spip-Filtrej接口存在远程代码执行漏洞CVE-2026-77806  附POC",
+    "https://mp.weixin.qq.com/s/krz-kzNwUWcihExuaYo5mQ": "漏洞预警|知名媒体服务器Plex Media Server曝未授权访问的远程命令执行漏洞plex2shell cvss 9.8",
+    "https://mp.weixin.qq.com/s/hBD21o1y-Gq3WwqrJNWAhQ": "关于TSRC漏洞奖励方案调整及测试行为违规通报的公告",
+    "https://mp.weixin.qq.com/s/jsCZ_qEblRstVWZQN-cjkg": "Windows Shell 安全功能绕过漏洞(CVE-2026-96951)",
+    "https://mp.weixin.qq.com/s/tCEl8_DfEpBKtGPTZDBlGQ": "深度学习顶会ICLR 2026论文点评丨从漏洞描述到检测规则：QLCoder如何让静态分析查询自动写出来？",
+    "https://mp.weixin.qq.com/s/lmmJEcyfiiJivRLFEXVxJg": "【安全圈】四漏洞连环击穿！Plex遭武器化利用植入挖矿木马",
+    "https://mp.weixin.qq.com/s/IycThRAtuKyo52EN8cUBsQ": "博通Wi-Fi漏洞已存在16年，攻击者无需密码即可接管路由器",
+    "https://mp.weixin.qq.com/s/9sBGipCUnXNhtcEKeQOemg": "【已复现】Drupal Field UI 远程代码执行漏洞(CVE-2026-108097)安全风险通告",
+    "https://mp.weixin.qq.com/s/Y69yt3UTgPoJ9IuodBgtLQ": "未认证 RCE：piflow AI Agent 一条消息拿下服务器（CVSS 9.8）",
+    "https://mp.weixin.qq.com/s/3MfvK4D0nM3-WpODH7IEsQ": "第107篇 AI全栈 · 漏洞链的艺术",
+    "https://mp.weixin.qq.com/s/xTb5J9wtlH7lm5ajhNFdSA": "【安全圈】双11前紧急叫停！京东JSRC全面暂停外部漏洞测试",
+    "https://mp.weixin.qq.com/s/IlHnAVBWD4N7OlxHuAjyVQ": "【漏洞预警】Windows Shell 安全功能绕过漏洞 （CVE-2026-96951）"
 }
