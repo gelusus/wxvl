@@ -27988,5 +27988,15 @@
     "https://mp.weixin.qq.com/s/Lhca8u7oxQaevZVPYrhh4g": "【漏洞通告】PHP远程代码执行漏洞(CVE-2026-109618∕CVE-2026-109619)",
     "https://mp.weixin.qq.com/s/-0HP6OhQqlgcWTur_R8TTw": "【安全圈】突发双高危RCE！PHP官方紧急发布9.2分安全通告",
     "https://mp.weixin.qq.com/s/CpTXUIQDj-tBAEWMbJERTw": "【漏洞通告】Drupal Field UI远程代码执行漏洞(CVE-2026-108097)",
-    "https://mp.weixin.qq.com/s/zo_7E33PM4Wyh997zfGF7w": "【漏洞预警】ILIAS 9.22 零权限 RCE： 无需任何账号，四步写入 webshell"
+    "https://mp.weixin.qq.com/s/zo_7E33PM4Wyh997zfGF7w": "【漏洞预警】ILIAS 9.22 零权限 RCE： 无需任何账号，四步写入 webshell",
+    "https://mp.weixin.qq.com/s/BY1TD5XfUZ1JiIeSg_2OLQ": "【已复现】PHP 远程代码执行漏洞(CVE-2026-109618、CVE-2026-109619) 第一阶段研究",
+    "https://mp.weixin.qq.com/s/apYCnpb_shAYvaKacf-87Q": "【已复现】php2shell-POC and EXP 2026.22日",
+    "https://mp.weixin.qq.com/s/beadY8eQTJTUClNtsyVEUg": "已复现 | PHP 会话反序列化 RCE：从靶场搭建到命令执行",
+    "https://mp.weixin.qq.com/s/gBn3YngyRUq19mUA5uz-vg": "这个星期四太疯狂了！继PHP RCE又出现了node js，nginx ，Litellm都爆出有漏洞",
+    "https://mp.weixin.qq.com/s/HnrrTYd3mZ_MQB7CrvnyVw": "【漏洞大逃杀】从昨夜PHP RCE到30余款组件安全事件复盘",
+    "https://mp.weixin.qq.com/s/4AzLWUWXPi2413k2kKWOcw": "【在野利用已发现】PHP 远程代码执行漏洞(CVE-2026-109618、CVE-2026-109619)安全风险通告",
+    "https://mp.weixin.qq.com/s/GwWgoC1VwCgAoK2-63fXHg": "已发现攻击，全球拉响警报！PHP重大漏洞引发多国紧急响应",
+    "https://mp.weixin.qq.com/s/X0ewkxXuJ5DfYU1N2Kt9jA": "【已复现】PHP 严重远程代码执行漏洞，官方紧急修复",
+    "https://mp.weixin.qq.com/s/QhY6TiCry24ipbjEkIF2vQ": "已复现 | php2shell：PHP Core 远程代码执行漏洞（CVE-2026-109618∕109619）",
+    "https://mp.weixin.qq.com/s/PFTOREzzzj8Fc0U2GV4C2g": "什么？你是说我刚结束了一天疲惫的工作后，PHP RCE，Node.js、Litellm都跟着炸了？"
 }
