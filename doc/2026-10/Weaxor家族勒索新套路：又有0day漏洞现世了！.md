@@ -1,6 +1,6 @@
 #  Weaxor家族勒索新套路：又有0day漏洞现世了！  
 MSSP运营团队
-                    MSSP运营团队  电信云堤   2026-10-21 08:53  
+                    MSSP运营团队  中国电信安全   2026-10-21 08:55  
   
 ![图片](https://mmbiz.qpic.cn/mmbiz_gif/Dh3fqSPAOWekCSIf3ffuFuiaBPl4BSArBsDhFEMSOTbeIfb7mdz4D0mDExZesv4PPicUdsOTxfRUx8QntAMTmTBA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=0 "")  
   
@@ -172,15 +172,15 @@ Authorization字段内容编码后进行复现，确认可
 **推荐阅读**  
   
   
-[](https://mp.weixin.qq.com/s?__biz=Mzk2NDIzNTYwOA==&mid=2247490637&idx=1&sn=bec99105c68ff398fe70c204cf67cb36&scene=21#wechat_redirect)  
+[](https://mp.weixin.qq.com/s?__biz=MzkxNDY0MjMxNQ==&mid=2247540484&idx=1&sn=ddc4dcc013860b24f628b0c01433b059&scene=21#wechat_redirect)  
   
-[警惕！Sorry勒索病毒来袭！](https://mp.weixin.qq.com/s?__biz=Mzk2NDIzNTYwOA==&mid=2247490637&idx=1&sn=bec99105c68ff398fe70c204cf67cb36&scene=21#wechat_redirect)  
+[警惕！Sorry勒索病毒来袭！](https://mp.weixin.qq.com/s?__biz=MzkxNDY0MjMxNQ==&mid=2247540484&idx=1&sn=ddc4dcc013860b24f628b0c01433b059&scene=21#wechat_redirect)  
   
   
   
-[](https://mp.weixin.qq.com/s?__biz=Mzk2NDIzNTYwOA==&mid=2247490549&idx=1&sn=c0547b2f3a6923c94add91ee1f200482&scene=21#wechat_redirect)  
+[](https://mp.weixin.qq.com/s?__biz=MzkxNDY0MjMxNQ==&mid=2247535924&idx=1&sn=6fb1cc1ee15c4e163ede7fc4914209e6&scene=21#wechat_redirect)  
   
-**“我怎么中毒了？”——MSSP主动服务+AI预警，一次跑赢勒索攻击的防护实践**  
+**独家洞察｜Mallox勒索团伙疑似继续利用产品漏洞攻击投毒国内数百个资产**  
   
   
 ![](https://mmbiz.qpic.cn/sz_mmbiz_gif/z7xPqlc0GbBZdrnibkon0HxogO9iazwQy5cqsw6fRdkPujrZZCuVnk7ywgyYA7yTfRIIkEXpdpDfQlkFMENO9P0Q/640?wx_fmt=gif&from=appmsg "")  
