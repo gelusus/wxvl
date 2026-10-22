@@ -1,6 +1,5 @@
 #  Cellebrite手握iPhone无线电0day漏洞？8米内隔空解锁设备  
-原创 黑鸟
-                    黑鸟  黑鸟   2026-10-21 15:44  
+ 白帽子   2026-10-21 23:46  
   
 有相关人士拿到了一份Cellebrite内部文档，标着CONFIDENTIAL，描述了一种"突破性方法"：  
 能对iPhone 11到16全系列机型、在iOS 26至26.4+上实现AFU(After First Unlock)级别的数据提取。  

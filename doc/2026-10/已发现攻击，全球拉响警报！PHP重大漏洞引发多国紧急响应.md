@@ -1,5 +1,6 @@
 #  已发现攻击，全球拉响警报！PHP重大漏洞引发多国紧急响应  
- 奇安信集团   2026-10-21 18:23  
+银信安
+                    银信安  银天信息   2026-10-22 01:07  
   
 一场波及全球互联网基础设施的重大网络安全事件引发国际社会高度关注。10月21日，全球广泛使用的服务器端编程语言PHP被曝存在两项严重安全漏洞（CVE-2026-109618、CVE-2026-109619），统称为“PHP2Shell”，漏洞危险评分均高达8.1分。  
 攻击者在特定条件下无需身份认证，即可利用漏洞实现远程代码执行，甚至获取服务器控制权限  
@@ -35,7 +36,8 @@
   
 **影响组件**  
   
-PHP 是一种广泛使用的开源服务器端脚本语言，主要运行于 Web 服务器端，支持 Apache mod_php、PHP-FPM（配合 Nginx、Apache mod_proxy_fcgi）、FrankenPHP、LiteSpeed LSAPI 等多种部署方式。W3Techs 统计显示，全球约四分之三的网站使用 PHP 作为服务器端编程语言，WordPress、Drupal、Joomla、MediaWiki、Magento、phpMyAdmin、Nextcloud、Laravel、Symfony、WHMCS 等主流应用均依赖 PHP。  
+PHP 是一种广泛使用的开源服务器端脚本语言，主要运行于 Web 服务器端，支持 Apache mod_php、PHP-FPM（配合 Nginx、Apache mod_proxy_fcgi）、FrankenPHP、LiteSpeed LSAPI 等多种部署方式。W3Techs 统计显示，全球约四分之三的网站使用 PHP 作为服务器端编程语言，WordPress、Drupal、Joomla、MediaWiki、Magento、phpMyAdmin、  
+Nextcloud、Laravel、Symfony、WHMCS 等主流应用均依赖 PHP。  
   
 **>**  
 **>**  
@@ -114,7 +116,7 @@ PHP ≤ 7.3 / 5.x 同样已停止维护，官方不提供修复版本，应优�
 PHP 远程代码执行漏洞(CVE-2026-109618、CVE-2026-109619)  
 ，截图如下：  
   
-![Image](https://mmbiz.qpic.cn/mmbiz_png/RwAbCjh555snOiaObmb7dddoJgQMZWx4K1p9IiaBUSF7aMOxsbaYgq34MmvWnPyicTSeDZx8tk5EOWyRDCJXFdUhQTUoEqprY59PRQl598q7a4/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0 "")  
+![Image](https://mmbiz.qpic.cn/mmbiz_png/RwAbCjh555snOiaObmb7dddoJgQMZWx4K1p9IiaBUSF7aMOxsbaYgq34MmvWnPyicTSeDZx8tk5EOWyRDCJXFdUhQTUoEqprY59PRQl598q7a4/640?wx_fmt=png&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=0 "")  
   
   
   
@@ -145,9 +147,11 @@ https://www.php.net/downloads.php
   
 1. 升级后必须重启 Apache、PHP-FPM 及所有常驻 worker，确保旧进程不再处理请求；仅替换二进制而不重启进程不能消除风险。  
   
-2. 容器环境应重新构建镜像，避免沿用包含旧 PHP 的 layer；Kubernetes 环境应滚动重启所有 Pod，并确认没有旧 ReplicaSet 继续服务。  
+2. 容器环境应重新构建镜像，避免沿用包含旧 PHP 的 layer；Kubernetes 环境应滚动重启所有 Pod，并确认没有旧   
+ReplicaSet 继续服务。  
   
-3. 发行版仓库（Ubuntu、Debian、RHEL、Alpine 等）和集成环境（宝塔、phpStudy、XAMPP、Docker 官方镜像等）可能存在同步延迟，请以 `php -v`、`php-fpm -v` 的实际输出为准，不要仅核对包管理器版本号。  
+3. 发行版仓库（Ubuntu、Debian、RHEL、Alpine 等）和集成环境（宝塔、phpStudy、  
+XAMPP、Docker 官方镜像等）可能存在同步延迟，请以 `php -v`、`php-fpm -v` 的实际输出为准，不要仅核对包管理器版本号。  
   
 4. PHP 8.1 及更早版本已停止支持，官方不再提供补丁，建议迁移至 PHP 8.2 或更高版本；若使用发行版长期支持分支，请以厂商 backport 公告为准。  
   
@@ -205,4 +209,5 @@ https://calif.io/php2shell/[#writeup]()
 发布安全风险通告第二次更新。  
   
   
+文章来源:奇安信集团微信公众号  
   
