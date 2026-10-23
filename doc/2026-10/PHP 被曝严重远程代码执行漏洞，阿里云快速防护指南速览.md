@@ -1,7 +1,9 @@
 #  PHP 被曝严重远程代码执行漏洞，阿里云快速防护指南速览  
- 阿里云安全   2026-10-22 04:02  
+阿里云
+                    阿里云  安在   2026-10-23 11:38  
   
-![](https://mmbiz.qpic.cn/mmbiz_gif/X4coLUhcXJGFWWMBLUfmaiaon8qY9eFNgS4dGXYP91pH90xIOCIwhI3R94Vh7ZJrVTgOX5QJJibBVeaOrnxjRfJAkEyJFRuUC5608N9cfYsIA/640?wx_fmt=gif&from=appmsg "")  
+![图片](https://mmbiz.qpic.cn/mmbiz_gif/5eH7xATwT3icpLmjpDSQkXx16oAygiaJncke0vYYJvIkuzECibrQJcUW4oAedTuib1G9m372rleJRDNXNs54fBEVicg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=webp "")  
+  
   
 2026年10月21日，阿里云安全监测到PHP官方披露两个严重（Critical）远程代码执行漏洞：CVE-2026-109618和CVE-2026-109619，CVSS v4.0评分均为9.2，此次漏洞事件亦称php2shell。在特定条件下，未经身份认证的攻击者可构造恶意请求，以Web工作进程的权限执行任意代码。  
   
@@ -40,7 +42,7 @@ PHP官方建议所有处理Web请求的PHP部署及时更新，包括Apache mod_
 两个漏洞在受支持稳定分支中的受影响版本与修复版本如下：  
   
   
-![20261022091628.jpg](https://mmbiz.qpic.cn/sz_mmbiz_jpg/X4coLUhcXJF6wk23RelibPIsEmNn58HiayZaANwMiaiagL1hYibpQP3eI7hLEXgDaxLg3TaoW4zujRRwnWia9mricffYzx2WUrV2T1CR5ib7kEMKRvo/640?wx_fmt=jpeg&from=appmsg "")  
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/X4coLUhcXJF6wk23RelibPIsEmNn58HiayZaANwMiaiagL1hYibpQP3eI7hLEXgDaxLg3TaoW4zujRRwnWia9mricffYzx2WUrV2T1CR5ib7kEMKRvo/640?wx_fmt=jpeg&from=appmsg#imgIndex=1 "")  
   
   
 PHP 8.1及更早版本已结束官方常规安全支持。部分发行版和长期支持（LTS）服务商可能提供回移安全补丁，请联系供应商确认两个漏洞的修复情况，或升级至受支持的安全版本。使用发行版软件包时，应结合供应商公告和软件包修订号判断修复状态。  
@@ -190,4 +192,8 @@ pm.max_requests=1
 8.官方缓解说明：  
   
 https://github.com/php/php-src/security/advisories/GHSA-6wmf-4rv5-p3rp  
+  
+  
+  
+**END点击这里阅读原文**  
   
