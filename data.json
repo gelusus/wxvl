@@ -28218,5 +28218,17 @@
     "https://mp.weixin.qq.com/s/8ctjZqVHW42k0VrhEa1r9w": "一套面向 CNVD 通用型未授权漏洞挖掘的开源便携工具包",
     "https://mp.weixin.qq.com/s/11Z_OO8WJU62hOLzyf0XtQ": "官方发行版上真跑通了：Node2Shell 的 PoC 到底有多真",
     "https://mp.weixin.qq.com/s/vOq9Z5S7CUy8MpcY5Dp17g": "PHP2Shell 漏洞分析与复现：CVE-2026-109618 ∕ CVE-2026-109619 未认证远程代码执行",
-    "https://mp.weixin.qq.com/s/8Iio04fsHZ_4LKKW2ejpxQ": "PHP2Shell漏洞处置与响应指引"
+    "https://mp.weixin.qq.com/s/8Iio04fsHZ_4LKKW2ejpxQ": "PHP2Shell漏洞处置与响应指引",
+    "https://mp.weixin.qq.com/s/u7Cish6dsvh4JnuQ9pzViQ": "【已复现】Node.js Brotli 解码器远程代码执行漏洞（CVE-2026-111497）",
+    "https://mp.weixin.qq.com/s/JwxKnUh0jzhk1PtZG6QedA": "藏了 14 年的漏洞，一周之内让半个互联网开始加班",
+    "https://mp.weixin.qq.com/s/6fZMOYaFHWYBqrjfW35O9w": "客户端漏洞挖掘skills v1.1",
+    "https://mp.weixin.qq.com/s/E6WuMre9pKYcOZq9L45BsA": "Python生态曝Brotli高危漏洞(CVE-2026-111497): Node2Shell(HTTP2Shell)影响范围扩大，或导致远程代码执行",
+    "https://mp.weixin.qq.com/s/RKE_QIkei2b87tQduvhVkw": "​CNNVD | 关于Oracle多个安全漏洞的通报",
+    "https://mp.weixin.qq.com/s/XNA9g4hRsF3Wx0AUWmaSfA": "【新增产品解决方案】PHP 远程代码执行漏洞(CVE-2026-109618、CVE-2026-109619)安全风险通告",
+    "https://mp.weixin.qq.com/s/r6abnhWnTFy4JOUKGBz2PQ": "赏金视角下的缓存欺骗与投毒：补丁比漏洞更危险？Cloudflare 绕过与 DoS 翻车复盘",
+    "https://mp.weixin.qq.com/s/Ab0lfD2ng-xdSy1xtkETBQ": "只需修改 URL 即可登录后台？教育网这套系统暴露未授权访问漏洞",
+    "https://mp.weixin.qq.com/s/Qw48naJkuaXdkY8KOE9gmg": "GitHub开源AI渗透测试工具PentestCode：13个Agent共享战况，自己却踩过两个高危漏洞",
+    "https://mp.weixin.qq.com/s/kTNInh05PiLoA7jtwrWX4A": "PHP2Shell从漏洞修复到威胁狩猎的证据链分析",
+    "https://mp.weixin.qq.com/s/glXn19ZV8l0ZXeKYmEixYQ": "某统一身份认证通杀漏洞挖掘",
+    "https://mp.weixin.qq.com/s/c8KxcpMBd6ho2NOErLVWLw": "从Node.js高危漏洞爆发，看山石网科的风险软件治理之道"
 }
