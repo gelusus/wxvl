@@ -28243,5 +28243,8 @@
     "https://mp.weixin.qq.com/s/tBpoFfNle2AVhaT58Adk5Q": "漫谈AOSP蓝牙漏洞挖掘技术",
     "https://mp.weixin.qq.com/s/vqP8hKHpfVY-o-FaJPKs1g": "【已复现】Node.js Brotli 解码器远程代码执行漏洞(CVE-2026-111497)安全风险通告",
     "https://mp.weixin.qq.com/s/2wigI5nmCrFUjpOSI58_eQ": "十二年轮回：GitLab 满分 RCE 的解剖与警示",
-    "https://mp.weixin.qq.com/s/t95ToAiec2HqvfqwFoF9WA": "在看 | 周报：宜春网警打击侵犯公民个人信息犯罪团伙；PHP引擎曝两个9.2分免认证RCE漏洞，多国机构紧急下线网站"
+    "https://mp.weixin.qq.com/s/t95ToAiec2HqvfqwFoF9WA": "在看 | 周报：宜春网警打击侵犯公民个人信息犯罪团伙；PHP引擎曝两个9.2分免认证RCE漏洞，多国机构紧急下线网站",
+    "https://mp.weixin.qq.com/s/_5i_hSI6AjvgJfeBgGN2SA": "某TSRC大佬付费价值1000元的POC漏洞知识库，免费梭哈！",
+    "https://mp.weixin.qq.com/s/F8K7rRt9BVIhbkxN0rzEeQ": "2026 PHP基础安全全景：从语法糖到RCE，每一个特性都是一条攻击链",
+    "https://mp.weixin.qq.com/s/Yw_E80BofrqIuE2ddRzOwg": "从 403 到 RCE 风险：PHP2Shell 漏洞全面解析与 PHP2ShellPOC2026 3.0 实战"
 }
