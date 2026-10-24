@@ -28211,5 +28211,12 @@
     "https://mp.weixin.qq.com/s/hZaxv9UlOEl8rGiBxI_Rmw": "【漏洞通告】Node.js 多个安全漏洞(CVE-2026-105482 ∕ CVE-2026-111497)",
     "https://mp.weixin.qq.com/s/WjPI4Ij0O5Ze-iLSfLKPNw": "Linux 内核两个漏洞被公开",
     "https://mp.weixin.qq.com/s/DHLETSykUJUwBYMBqEF9Ww": "SonicWall SMA1000 严重性最高的漏洞现已被用于不法攻击",
-    "https://mp.weixin.qq.com/s/QbrgpiINEHwgEf2CWZbXig": "Linux KSMBD曝两大9.0分RCE漏洞，主线内核尚未修复"
+    "https://mp.weixin.qq.com/s/QbrgpiINEHwgEf2CWZbXig": "Linux KSMBD曝两大9.0分RCE漏洞，主线内核尚未修复",
+    "https://mp.weixin.qq.com/s/YaU2Uhegyk02cs_dhikn1w": "PHP2Shell紧急补丁上线两天,官方再发未修复RCE预警:CVE-2026-115560",
+    "https://mp.weixin.qq.com/s/eURETKHXOTZlJUOi3eI_JA": "Python的Pillow图像库存在严重漏洞，通过伪造图像可能导致代码执行",
+    "https://mp.weixin.qq.com/s/tFp8I057dlAqF8LA8poltA": "让 Burp 自己开火：一个把抓到的流量直接变成漏洞的被动扫描引擎",
+    "https://mp.weixin.qq.com/s/8ctjZqVHW42k0VrhEa1r9w": "一套面向 CNVD 通用型未授权漏洞挖掘的开源便携工具包",
+    "https://mp.weixin.qq.com/s/11Z_OO8WJU62hOLzyf0XtQ": "官方发行版上真跑通了：Node2Shell 的 PoC 到底有多真",
+    "https://mp.weixin.qq.com/s/vOq9Z5S7CUy8MpcY5Dp17g": "PHP2Shell 漏洞分析与复现：CVE-2026-109618 ∕ CVE-2026-109619 未认证远程代码执行",
+    "https://mp.weixin.qq.com/s/8Iio04fsHZ_4LKKW2ejpxQ": "PHP2Shell漏洞处置与响应指引"
 }

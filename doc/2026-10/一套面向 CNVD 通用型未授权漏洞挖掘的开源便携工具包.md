@@ -1,6 +1,5 @@
 #  一套面向 CNVD 通用型未授权漏洞挖掘的开源便携工具包  
-sywinksvg
-                    sywinksvg  乌雲安全   2026-10-23 00:50  
+ 黑白之道   2026-10-24 01:29  
   
 ## 这是什么  
   
@@ -208,4 +207,5 @@ python cnvd_check.py --targets targets.csv --rules ..\rules\rules_boa.json -
   
 https://github.com/sywinksvg/cnvd-skill  
   
+文章来源：乌雲安全  
   
