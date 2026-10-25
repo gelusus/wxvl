@@ -28251,5 +28251,10 @@
     "https://mp.weixin.qq.com/s/TXc5UcWBfwcLd18EorvIHw": "PHP后Oracle发布多个安全漏洞",
     "https://mp.weixin.qq.com/s/C_-_m_guBBjM2gtyRx2jdQ": "【已复现】Node.js Brotli 解码器越界写漏洞（CVE-2026-111497）",
     "https://mp.weixin.qq.com/s/XeuqWvuwfM5pLxJ5m9dvFQ": "Nextcloud 命令注入 9.2 分落 Webshell CVE-2026-110447",
-    "https://mp.weixin.qq.com/s/3N5NFdz1AqfzyUDTmUpNwQ": "解压即入口：Brotli解码器越界写入影响Node.js（CVE-2026-111497）"
+    "https://mp.weixin.qq.com/s/3N5NFdz1AqfzyUDTmUpNwQ": "解压即入口：Brotli解码器越界写入影响Node.js（CVE-2026-111497）",
+    "https://mp.weixin.qq.com/s/CSATM2WBf-DGc-W7pjktbg": "【攻击检测规则与迹象排查】PHP 远程代码执行漏洞(CVE-2026-109618、CVE-2026-109619)安全风险通告",
+    "https://mp.weixin.qq.com/s/dw5VHLqxOjOFXLy8UYsRcg": "安全的本质 是正视漏洞 解决隐患 而非规避发现漏洞的人",
+    "https://mp.weixin.qq.com/s/84elGQL5rRiXvA6bVPfdqg": "安天发布PHP2Shell漏洞专项系列加固工具",
+    "https://mp.weixin.qq.com/s/ykB_ZwR0tVhP6gUTzac3dQ": "安天PHP2Shell漏洞专项加固工具新增银河麒麟、统信UOS适配版本",
+    "https://mp.weixin.qq.com/s/ZrlKpKuF8A-INCTbGpXt6A": "极客赛场纠错，企业为何偏要捂住漏洞？"
 }
