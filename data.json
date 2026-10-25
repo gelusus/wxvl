@@ -28246,5 +28246,10 @@
     "https://mp.weixin.qq.com/s/t95ToAiec2HqvfqwFoF9WA": "在看 | 周报：宜春网警打击侵犯公民个人信息犯罪团伙；PHP引擎曝两个9.2分免认证RCE漏洞，多国机构紧急下线网站",
     "https://mp.weixin.qq.com/s/_5i_hSI6AjvgJfeBgGN2SA": "某TSRC大佬付费价值1000元的POC漏洞知识库，免费梭哈！",
     "https://mp.weixin.qq.com/s/F8K7rRt9BVIhbkxN0rzEeQ": "2026 PHP基础安全全景：从语法糖到RCE，每一个特性都是一条攻击链",
-    "https://mp.weixin.qq.com/s/Yw_E80BofrqIuE2ddRzOwg": "从 403 到 RCE 风险：PHP2Shell 漏洞全面解析与 PHP2ShellPOC2026 3.0 实战"
+    "https://mp.weixin.qq.com/s/Yw_E80BofrqIuE2ddRzOwg": "从 403 到 RCE 风险：PHP2Shell 漏洞全面解析与 PHP2ShellPOC2026 3.0 实战",
+    "https://mp.weixin.qq.com/s/stsKbko2wPLlt4D1ODq2jw": "Web框架漏洞盘点那些年拖垮无数网站的经典漏洞",
+    "https://mp.weixin.qq.com/s/TXc5UcWBfwcLd18EorvIHw": "PHP后Oracle发布多个安全漏洞",
+    "https://mp.weixin.qq.com/s/C_-_m_guBBjM2gtyRx2jdQ": "【已复现】Node.js Brotli 解码器越界写漏洞（CVE-2026-111497）",
+    "https://mp.weixin.qq.com/s/XeuqWvuwfM5pLxJ5m9dvFQ": "Nextcloud 命令注入 9.2 分落 Webshell CVE-2026-110447",
+    "https://mp.weixin.qq.com/s/3N5NFdz1AqfzyUDTmUpNwQ": "解压即入口：Brotli解码器越界写入影响Node.js（CVE-2026-111497）"
 }
