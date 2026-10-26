@@ -28268,5 +28268,11 @@
     "https://mp.weixin.qq.com/s/tItIHB_L_6CVPS_JlRg3hA": "【已复现】Linux Kernel 提权漏洞 CVE-2026-98260，主流发行版与 Android 受到影响",
     "https://mp.weixin.qq.com/s/dATmHfyYiGfJHZ_sJd824A": "工具分享 | 一款全功能 Web 漏洞扫描工具 - WebVulnScanner v12.0",
     "https://mp.weixin.qq.com/s/hFyUpqg_MOrBUlcBn3ziew": "被同一个白帽子连续破防4次？详解GitLab最新10.0高危漏洞",
-    "https://mp.weixin.qq.com/s/K6sSThb8nu-X7fdOoODAqw": "天融信：漏洞处置与防护才是真正的护城河，浅谈“前沿虚拟补丁”"
+    "https://mp.weixin.qq.com/s/K6sSThb8nu-X7fdOoODAqw": "天融信：漏洞处置与防护才是真正的护城河，浅谈“前沿虚拟补丁”",
+    "https://mp.weixin.qq.com/s/SWkXpuN5YIRSRK86SN-wsA": "【漏洞预警】GitLab未授权远程代码执行漏洞（CVE-2026-110264）",
+    "https://mp.weixin.qq.com/s/8ol2gXy8_kiD4cIapXM_dQ": "【0day预警】写进去的代码， 总有人替你执行： DedeCMS 的三个 RCE",
+    "https://mp.weixin.qq.com/s/2X2WnSfICK3epylZ_n3gQQ": "php2shell：CVE-2026-109618 ∕ 109619：PHP 的各类部署的修复方案",
+    "https://mp.weixin.qq.com/s/k3JDYetQ9f-BqWgaLuUc-w": "一次中风险漏洞处理复盘：从RSA密钥交换到全面启用TLSv1.3",
+    "https://mp.weixin.qq.com/s/Sagz4j9BoO7OqQdGGaMAVA": "PHP远程代码执行漏洞(CVE-2026-109618、CVE-2026-109619)通告",
+    "https://mp.weixin.qq.com/s/WcPB-Rxx_-JxCQFol2QniQ": "雷神众测漏洞周报2026.10.19-2026.10.25"
 }
