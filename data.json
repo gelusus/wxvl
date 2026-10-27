@@ -28274,5 +28274,13 @@
     "https://mp.weixin.qq.com/s/2X2WnSfICK3epylZ_n3gQQ": "php2shell：CVE-2026-109618 ∕ 109619：PHP 的各类部署的修复方案",
     "https://mp.weixin.qq.com/s/k3JDYetQ9f-BqWgaLuUc-w": "一次中风险漏洞处理复盘：从RSA密钥交换到全面启用TLSv1.3",
     "https://mp.weixin.qq.com/s/Sagz4j9BoO7OqQdGGaMAVA": "PHP远程代码执行漏洞(CVE-2026-109618、CVE-2026-109619)通告",
-    "https://mp.weixin.qq.com/s/WcPB-Rxx_-JxCQFol2QniQ": "雷神众测漏洞周报2026.10.19-2026.10.25"
+    "https://mp.weixin.qq.com/s/WcPB-Rxx_-JxCQFol2QniQ": "雷神众测漏洞周报2026.10.19-2026.10.25",
+    "https://mp.weixin.qq.com/s/61fk3nlNNVmrhE7ezJWFlg": "每日漏洞推送 zip-rs ≤ 9.0.4 双头部脱同步（Zip Cloaking）→ 扫描器放行、解压器落盘任意文件",
+    "https://mp.weixin.qq.com/s/visLwiY2uhFpn8MfRprjeQ": "研究员凭PHP2Shell漏洞赢得比特币挑战赛，获两千美元奖金并发布PoC",
+    "https://mp.weixin.qq.com/s/R-8iyvLV30cylod5e0h7uw": "Tailscale SSH 漏洞可导致提权至 root",
+    "https://mp.weixin.qq.com/s/RZQZP6j_G6Wnl35lb_e1rg": "【已复现】漏洞通告 | Node.js Brotli 解码器远程代码执行漏洞(CVE-2026-111497)",
+    "https://mp.weixin.qq.com/s/IWETdbVupnjxE-agGfqEfQ": "【每日漏洞预警】10月27日 · TOTOLINK 10.0 未授权栈溢出，Avocent 9.8 提权",
+    "https://mp.weixin.qq.com/s/oZxv5QAZofxAE_kAAw7-bg": "Node.js 的远程命令执行漏洞，不在你的业务代码里，在压缩库里",
+    "https://mp.weixin.qq.com/s/sUAaN5wNcdi79_uExUHHcA": "【每日漏洞预警】10月26日 · 无 9.5 分未授权 RCE，YesWiki 9.1 未授权注入领跑",
+    "https://mp.weixin.qq.com/s/e3pRFt7ftqtLHXEQleAp7w": "360图龙锋攻破“逻辑漏洞”难题！研究成果再斩国际顶会"
 }
