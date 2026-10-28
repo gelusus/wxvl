@@ -28304,5 +28304,15 @@
     "https://mp.weixin.qq.com/s/iNeFwwFl62ZOX7NAER87uA": "一条命令跑完端口扫描到漏洞验证：vscan 把六段工具链压进了一个二进制文件",
     "https://mp.weixin.qq.com/s/_pfLS7Wd5uP8SDaHF5GH2A": "大蚂蚁即时通信系统 upload_file.html 任意文件上传漏洞",
     "https://mp.weixin.qq.com/s/caROKKoNN5jVWpqXLA2vbA": "每日安全预警 ｜ MySQL 等 数据库漏洞风险通报（2026-10-28）",
-    "https://mp.weixin.qq.com/s/JygNGAA7f2DT83aWvPSihA": "PoC 满天飞的十月：PHP2Shell、NetScaler、Atlassian……"
+    "https://mp.weixin.qq.com/s/JygNGAA7f2DT83aWvPSihA": "PoC 满天飞的十月：PHP2Shell、NetScaler、Atlassian……",
+    "https://mp.weixin.qq.com/s/7-cow4Gfb3CFXZsF1SS-pQ": "Node.js Brotli 解码器越界写入漏洞（Node2Shell CVE-2026-111497） 通告",
+    "https://mp.weixin.qq.com/s/kGZx9f96YMiIAAVW2KJidg": "漏洞预警|CVE-2026-97631 一个存在约16年的缓冲区溢出漏洞,影响绝大多数服务器，还能执行代码, cvss:9.5",
+    "https://mp.weixin.qq.com/s/ELYhW9V9qGXn3uS_iig_MQ": "PHP2SHELL漏洞事件启示：攻击来了，补丁还没打，AI蜜罐守零日窗口期",
+    "https://mp.weixin.qq.com/s/KEfYJGsCTX8vZ1727eftZA": "【漏洞预警】PHP 底层高危远程代码执行漏洞",
+    "https://mp.weixin.qq.com/s/84YDGedBfM-L6q9vLS6oYw": "Strix AI 自动化渗透测试工具实战：安装部署、配置与漏洞挖掘教程",
+    "https://mp.weixin.qq.com/s/NfL2BFR6qgmFE9Z3jBQfSA": "Linux 中被发现Zero-click远程代码执行漏洞，来看看Claude最近发现和利用的真实软件中的漏洞，关键是用的是未发布的内部模型",
+    "https://mp.weixin.qq.com/s/CoBsWiJfzEtRaE5lEdGvRA": "信息安全漏洞周报（2026年第42期）",
+    "https://mp.weixin.qq.com/s/m85wWa41p6FemkG3EljhNg": "Veeam 修复企业备份和监控软件中的多个严重漏洞",
+    "https://mp.weixin.qq.com/s/OYXwgVBflAZdWe2LBnwhqA": "SLUB 的丰收季：从 io_uring 漏洞到基于 sheaf 的全新利用技术",
+    "https://mp.weixin.qq.com/s/qIksr4L_LJfmuHlnZJEOrQ": "「关键漏洞目录」新增「Google Brotli decode.c缓冲区溢出漏洞」等2个漏洞"
 }
