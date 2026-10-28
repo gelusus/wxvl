@@ -28314,5 +28314,13 @@
     "https://mp.weixin.qq.com/s/CoBsWiJfzEtRaE5lEdGvRA": "信息安全漏洞周报（2026年第42期）",
     "https://mp.weixin.qq.com/s/m85wWa41p6FemkG3EljhNg": "Veeam 修复企业备份和监控软件中的多个严重漏洞",
     "https://mp.weixin.qq.com/s/OYXwgVBflAZdWe2LBnwhqA": "SLUB 的丰收季：从 io_uring 漏洞到基于 sheaf 的全新利用技术",
-    "https://mp.weixin.qq.com/s/qIksr4L_LJfmuHlnZJEOrQ": "「关键漏洞目录」新增「Google Brotli decode.c缓冲区溢出漏洞」等2个漏洞"
+    "https://mp.weixin.qq.com/s/qIksr4L_LJfmuHlnZJEOrQ": "「关键漏洞目录」新增「Google Brotli decode.c缓冲区溢出漏洞」等2个漏洞",
+    "https://mp.weixin.qq.com/s/p6_m4D6M3FQTWzHvfGDPew": "天积安全靶场攻略｜业务逻辑漏洞-暴力破解之前端加密篇",
+    "https://mp.weixin.qq.com/s/nAPGoVFpZr-qEj66iwGCUA": "【高危漏洞预警】Apache Tomcat FORM认证授权绕过高危漏洞CVE-2026-6852",
+    "https://mp.weixin.qq.com/s/PBoZgu5yNc6b6I6Gj2p--g": "Brotli 漏洞暴露严重，HTTP2Shell 漏洞触发紧急补丁",
+    "https://mp.weixin.qq.com/s/vL4E2vORVjmu67KzArRbnw": "JavaSecLab：别再搭那些“一键弹窗”的靶场了，这个平台逼你从源码里理解漏洞",
+    "https://mp.weixin.qq.com/s/vyo8RDvPWbQVYgZlGH9QoQ": "【高危漏洞预警】CVE-2026-98260 Linux内核POSIX CPU Timer释放后重用（Use-After-Free）",
+    "https://mp.weixin.qq.com/s/z2sHF0nQibk4sOa0u2Xlmw": "Ruoyi框架漏洞复现总结",
+    "https://mp.weixin.qq.com/s/WkTEWGZyMnhCgXOG1Wcreg": "网站漏洞源码合集 可做漏洞训练平台",
+    "https://mp.weixin.qq.com/s/RJnEaBv0e9DvpUMMGN12qg": "记一次学员ai挖洞不知道原理经过深度分析之挖掘通杀0day过程"
 }
