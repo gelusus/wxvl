@@ -28299,5 +28299,10 @@
     "https://mp.weixin.qq.com/s/TzC1MbcfvpSzWNklaOS65g": "程序员注意：思源笔记连曝高危漏洞 发布模式默认就能拖库",
     "https://mp.weixin.qq.com/s/h5Der_BVTEh1TAMrbbjKRw": "Anthropic安全高管警告：“漏洞海啸”数月内来袭，关基设施漏洞或来不及修复",
     "https://mp.weixin.qq.com/s/tP9ae34Fy1V-2GI3GsJZzA": "漏洞复现 | 泛微E-cology9 doc 存在SQL注入漏洞",
-    "https://mp.weixin.qq.com/s/ojpm9Cg1zXHS_tblrQFFNg": "CVE-2026-112611∕112610：CoreGraphics PDF 越界写入漏洞 POC"
+    "https://mp.weixin.qq.com/s/ojpm9Cg1zXHS_tblrQFFNg": "CVE-2026-112611∕112610：CoreGraphics PDF 越界写入漏洞 POC",
+    "https://mp.weixin.qq.com/s/PtM9By0rH88jPWzWuvl-2Q": "【已复现】漏洞通告 | Linux Kernel POSIX CPU timer释放后重用漏洞(CVE-2026-98260)",
+    "https://mp.weixin.qq.com/s/iNeFwwFl62ZOX7NAER87uA": "一条命令跑完端口扫描到漏洞验证：vscan 把六段工具链压进了一个二进制文件",
+    "https://mp.weixin.qq.com/s/_pfLS7Wd5uP8SDaHF5GH2A": "大蚂蚁即时通信系统 upload_file.html 任意文件上传漏洞",
+    "https://mp.weixin.qq.com/s/caROKKoNN5jVWpqXLA2vbA": "每日安全预警 ｜ MySQL 等 数据库漏洞风险通报（2026-10-28）",
+    "https://mp.weixin.qq.com/s/JygNGAA7f2DT83aWvPSihA": "PoC 满天飞的十月：PHP2Shell、NetScaler、Atlassian……"
 }
