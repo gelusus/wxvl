@@ -1,6 +1,6 @@
 #  记一次SRC挖掘—审计js还原隐藏接口产出2个未授权漏洞  
-原创 zkaq-诚信友善
-                    zkaq-诚信友善  掌控安全EDU   2026-10-12 04:04  
+原创 zkaq- 诚信友善
+                    zkaq- 诚信友善  掌控安全EDU   2026-10-30 06:05  
   
 扫码领资料  
   
@@ -16,63 +16,59 @@
   
 **来****Track安全社区投稿~**  
   
-**千元稿费！还有保底奖励~（  https://bbs.zkaq.cn   ）**  
-###   
-### 本文所述漏洞测试流程与技术细节，仅用于网络安全领域的经验交流与防御技术研究。文中所涉及的所有系统漏洞，均已在披露前完成修复。严禁任何个人或组织将文中技术用于未授权系统的攻击、入侵或破坏行为。任何因违反此声明、擅自利用相关技术而引发的法律责任及不良后果，均由实际操作者自行承担，与本文作者及发布平台无关  
+**千元稿费！还有保底奖励~（  https://bbs.zkaq.cn   ）**  
+# 一、前言  
   
-  
-**测试过程总结**  
-  
-本次测试从一个运维系统开始，通过审计 JavaScript 中的 Chunk 映射，还原出未在首页直接加载、也未被常规插件识别的js文件，并沿着请求封装继续定位到多个隐藏接口，挖掘多个未授权漏洞  
-  
+    本次测试从一个运维系统开始，通过审计 JavaScript 中的 Chunk 映射，还原出未在首页直接加载、也未被常规插件识别的js文件，并沿着请求封装继续定位到多个隐藏接口，挖掘多个未授权漏洞   
+# 二、正文  
   
 开局一个登录框，出洞漏洞全靠肝  
   
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/ianpxKPnLHoJ2oO4pUGZicaToGuOficgOwBvjzOMibJsNSQloKX4iagnmgyndbT5zxtBmwREwMqfm6jBLib6RZ1xmhnmGnKHMxlKJ0bpZ9Lia9K3bA/640?wx_fmt=webp&from=appmsg "")  
+![](https://mmbiz.qpic.cn/mmbiz_png/ianpxKPnLHoJmpoYglZMc3IneYYwUbLYqVHyyFjic9AfKrmAibmzxkbeUQj02WgsN8IOzrkWOOxxhib8MHOmSbSrgeHJUGqqfywGknZibPnWmyG4/640?wx_fmt=png&from=appmsg "")  
   
 按照正常流程把该测的功能点都测试了一遍  
   
 雪瞳和小熊猫插件识别的接口也全部都跑了一遍，没有任何产出  
   
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ianpxKPnLHoLic1PAsbenI8ros6u9INmbpxgKEF8XLDsNbYYc8L2na8KtyEfCOz4LqQmHaykm43peQQDwibWBhYzGJdbDL47trCBK8IYQ62gcE/640?wx_fmt=webp&from=appmsg "")  
+![](https://mmbiz.qpic.cn/mmbiz_png/ianpxKPnLHoJx6UIZDt7sdibZS0aO9Ofa9OadwbkUCiawWpujbgvP2FliaPMUI8TIia1ibQXZEtTkiauTklc6Hiak7xs4eHWVsGfmSBq54WLsAE1Qtk/640?wx_fmt=png&from=appmsg "")  
   
-查看引用的js内容，发现baseURL /api   ，雪瞳和小熊猫里面是没有这个baseURL /api 相关接口的，所以如果我们能找到相关接口大概率有戏  
+查看引用的js内容，发现baseURL /api ，雪瞳和小熊猫里面是没有这个baseURL /api 相关接口的，所以如果我们能找到相关接口大概率有戏  
   
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ianpxKPnLHoInZeNWY3ibWqCMtOo0aeaSwiafF3kHPt3TJPgnz9UJK9ibOVnDjWo8Q7YGQ4b0MaCwEMRt0PTA7gzrdrHy6lW7WIiasKbVpktiaCWA/640?wx_fmt=webp&from=appmsg "")  
+![](https://mmbiz.qpic.cn/mmbiz_png/ianpxKPnLHoLJ2OY25xePPVZOia179xymJUhnZerEyDY10P1lHt0LXxNgiaIeribyu58L7DkjRfGu3Bib5sZcXWawCwYsTyqlsEkRYMrxTMkuR5I/640?wx_fmt=png&from=appmsg "")  
   
-继续查看js内容，发现 Chunk 映射---类似："chunk-xxxxxx":"xxxxxx"  
+继续查看js内容，发现 Chunk 映射---类似：  
+"chunk-xxxxxx":"xxxxxx"  
   
-计算出的完整地址：https://xxxxx.xxxxx.edu.cn/static/js/chunk-xxxxx.xxxxx.js  
+计算出的完整地址：  
+https://xxxxx.xxxxx.edu.cn/static/js/chunk-xxxxx.xxxxx.js  
   
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ianpxKPnLHoI72zMg9f8ex5GUYM0ohTE9tr5DvmficTzib4diaCDfTicNOLaJb3rVico7RgjBDvxCINaStOfibicUicBicVOEPPRJ1HgxSJN8YBlu1LU0/640?wx_fmt=webp&from=appmsg "")  
+![](https://mmbiz.qpic.cn/mmbiz_png/ianpxKPnLHoJNiaPcib5qLalGPic3Uicue3RRd6CfH7RvBJSk4llsm5z2PmAnDCuFbtruvb2zaCEFIX0o4bCfyvAVlwSNibuz7ibPBewtQ6Gz9tcak/640?wx_fmt=png&from=appmsg "")  
   
-打开https://xxxxx.xxxxx.edu.cn/static/js/chunk-xxxxx.xxxxx.js  
+打开  
+https://xxxxx.xxxxx.edu.cn/static/js/chunk-xxxxx.xxxxx.js  
   
 发现众多插件未识别出来的接口  
   
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/ianpxKPnLHoIsfrlKsXUHAj45u6LNV59QhqzAjkic7ZhP53V156VbStBYIbibsX2dkOWbDZVXe2sE0BYeMeOy7CaEc58Jkn77wZhU9ZVNxfkfM/640?wx_fmt=webp&from=appmsg "")  
+![](https://mmbiz.qpic.cn/mmbiz_png/ianpxKPnLHoKTecF86wRelnofr8bF012F1nkNNvQiaYia9DLAjv9DwhApJyibnrT8giaEiaYPCWZ4lfRmrZUqicNA8Fibqia170uEjwx7eRaSbkGibAFs/640?wx_fmt=png&from=appmsg "")  
   
 最终恢复接口发包成功获取 全站用户名和MD5密码等敏感信息  
   
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ianpxKPnLHoJQnYfdbAIGvyxM67kYbktlZuH7s2pyGC6OgnKOdHTWTHZpjJxwdlgc03U3qsPbgK8HZaVtFpkBzlPnlGzGJNtYllhFHhvvobo/640?wx_fmt=webp&from=appmsg "")  
-  
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/ianpxKPnLHoL6vxvLcHUSJE1K6icbZhEkb8icMGccapia49e20eXEfmEdVDUuNKfEjkbAQiaLFBQbF2uJHFS3CKvJq2yQick0wbOfNgLDgRUYic5jc/640?wx_fmt=png&from=appmsg "")  
   
 还有一个getxxx接口是查询人员排班信息的，不过查询出的信息没什么敏感的  
   
 我们通过查询一个未来的日期，可以发现是没有排班信息的  
   
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/ianpxKPnLHoKhDZEIIKwG6AttEKmMaIfyibBXbrA7NEoc7u7zZNotWAmtOG3DQ7PL7Xrowr22Vo2WVob2TY8UgyPb7Bl3SsEItOD07AeNkKLE/640?wx_fmt=webp&from=appmsg "")  
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/ianpxKPnLHoJMqOpib7fDJRs2sGOhbEYWbibib6Yy2qFA1QTyicicFLNW7fhYRVpibiaBialMcicPhibp1LJKIQfM7TQZlraibicDQTWvLiaX2FH01LuhoQw4/640?wx_fmt=png&from=appmsg "")  
   
 通过savaxxx接口给两位用户写入了2099-12-31的排班信息  
   
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/ianpxKPnLHoKLrvdVsyt5TnwHic3ELRNbyN8bmu9anr0kAgYnvUicdktVt0msKEMd5DtmuupoiaXIl2YCZicwffNXT88npjUHSTV90Eibkv6waeLM/640?wx_fmt=webp&from=appmsg "")  
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/ianpxKPnLHoJCwYj0u8BhhmBib0g6PL4boBf4yt5SslNlBllEMa5k0usdWoVz4XDPuY94x6FwtllAdm6iaTcRaUdonBRibqOefHBP0DaWc9h1Kw/640?wx_fmt=png&from=appmsg "")  
   
 再次查询2099-12-31的排班信息，成功查询出刚刚写入的排班信息，证明存在未授权排班信息写入漏洞  
   
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/ianpxKPnLHoJPP5ruPIl5fAdFuZLgtbmuqPLlJASWicqBKItOHJ1Qz2dD2uMIEjrmfjEyhy9ZMpNQnhHeLtdx8cGhStaybp9dJBxic4skTnO3s/640?wx_fmt=webp&from=appmsg "")  
-  
-  
-总结  
+![](https://mmbiz.qpic.cn/mmbiz_png/ianpxKPnLHoJKDDy1WHqibFsclQibJIJIqzicpYNACJGVmUtRwibzaFIjSLl9BOr4Rl7b69Ez1vDHWeBsUHXH4NciaHwzxwDLppIzeriaH3U29M9uc/640?wx_fmt=png&from=appmsg "")  
+# 三、总结  
   
 对于采用 Vue/Webpack 的系统，测试时不应该只依赖自动化插件，应该把Chunk 映射当作必查项，逐一还原隐藏模块对其中接口进行验证，或许可以发现前端未暴露但服务端缺少授权控制的未授权接口。  
   
@@ -117,5 +113,4 @@
 点赞+在看支持一下吧~感谢看官老爷~   
   
 你的点赞是我更新的动力  
-  
   
