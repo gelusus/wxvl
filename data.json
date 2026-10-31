@@ -28423,5 +28423,15 @@
     "https://mp.weixin.qq.com/s/BInc-JbVzW3OVe_2oh8J9Q": "Freut mich, Nürnberg（幸会，纽伦堡）！飞天诚信亮相it-sa Expo & Congress 2026",
     "https://mp.weixin.qq.com/s/B6O6at49gQkZuOwk6hLw0A": "2026最新 Pikachu 漏洞练习平台通关教程",
     "https://mp.weixin.qq.com/s/j1VHzzjVX7e2EN9kxY4X-Q": "文件上传漏洞的真相：你上传成功的那一刻，真正的攻防才刚刚开始",
-    "https://mp.weixin.qq.com/s/DUJbAr2RwSaCvHNCydg_SA": "能信安：安全漏洞"
+    "https://mp.weixin.qq.com/s/DUJbAr2RwSaCvHNCydg_SA": "能信安：安全漏洞",
+    "https://mp.weixin.qq.com/s/Lh515BpAbew6cCEDaGmL3w": "【漏洞预警】TeamViewer RCE 漏洞可致恶意主机接管，25亿设备告急",
+    "https://mp.weixin.qq.com/s/qf6YQCxjgV7fxxG0m_VqRA": "500+ 漏洞的环境搭建、POC 与原理全塞进一个开源仓库：这个漏洞文库把复现周期从几天压缩到几分钟",
+    "https://mp.weixin.qq.com/s/7P2hwIt_8B-W2xhByMU6lA": "【提高挖洞效率】Burpsuite杂包强过滤src漏洞挖掘",
+    "https://mp.weixin.qq.com/s/DDPXJ6avqVZMNWVtbEQr9w": "【热点安全风险】10月31日｜Linux 内核 9.8 分缺陷，未认证攻击者可越界写内存（CVE-2026-98432）",
+    "https://mp.weixin.qq.com/s/uPXrggPBXFNCpm8bGpHMng": "某企业SRC的抽奖操控漏洞",
+    "https://mp.weixin.qq.com/s/aDOF8Tx1KqWdm6f2nqdKLA": "Linux内核TCP漏洞，CVSS评分9.8，影响Ubuntu、Red Hat及其他发行版",
+    "https://mp.weixin.qq.com/s/Y6fVB3M-HHmbwnRxImOL-Q": "赛博安全狗：node-forge修复AES-GCM认证绕过漏洞CVE-2026-119186 (10.31)",
+    "https://mp.weixin.qq.com/s/9xDNlRNbX_ZLNbtka09Shg": "安全运营的底层逻辑：漏洞、情报与数据",
+    "https://mp.weixin.qq.com/s/f8M3jhR0krt9y2-4XJZ4qw": "php2shell-scanner：拿到新工具后，怎样在一台 PHP 上分清“真漏洞”和“被探针打崩”",
+    "https://mp.weixin.qq.com/s/XMarcaff7YB9ykZx-TTDqA": "pypdf 一个 PDF 吃光内存，CVE-2026-119204"
 }
