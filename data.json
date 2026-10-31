@@ -28433,5 +28433,13 @@
     "https://mp.weixin.qq.com/s/Y6fVB3M-HHmbwnRxImOL-Q": "赛博安全狗：node-forge修复AES-GCM认证绕过漏洞CVE-2026-119186 (10.31)",
     "https://mp.weixin.qq.com/s/9xDNlRNbX_ZLNbtka09Shg": "安全运营的底层逻辑：漏洞、情报与数据",
     "https://mp.weixin.qq.com/s/f8M3jhR0krt9y2-4XJZ4qw": "php2shell-scanner：拿到新工具后，怎样在一台 PHP 上分清“真漏洞”和“被探针打崩”",
-    "https://mp.weixin.qq.com/s/XMarcaff7YB9ykZx-TTDqA": "pypdf 一个 PDF 吃光内存，CVE-2026-119204"
+    "https://mp.weixin.qq.com/s/XMarcaff7YB9ykZx-TTDqA": "pypdf 一个 PDF 吃光内存，CVE-2026-119204",
+    "https://mp.weixin.qq.com/s/GCeZSzyULI6RuBiGOxtzFA": "【漏洞情报】2026年10月车联网漏洞态势综述",
+    "https://mp.weixin.qq.com/s/tMejDCIOq0Rz4xwCtw5gXQ": "当漏洞挖掘遇上 AI Agent：主流企业防火墙 0day 挖掘实战",
+    "https://mp.weixin.qq.com/s/6Hj9P4u8zZMC1wc0z5kacQ": "第177篇：Struts2全版本漏洞检测工具v20.11（内存马版）+新增注入内存马功能",
+    "https://mp.weixin.qq.com/s/dlSnxUSXz0pskDKuW0VpFQ": "TeamViewer 严重漏洞：恶意主机可借远程支持会话反向控制技术人员电脑",
+    "https://mp.weixin.qq.com/s/RYqpoGQ4dO-MSr1Gsy3DUw": "第114篇 AI全栈 · 逻辑漏洞背后隐藏的刷票总结",
+    "https://mp.weixin.qq.com/s/9Fq5sQ8xMD9yhF39lzlhRQ": "漏洞复现 | 智慧综合管理平台 DDiscountDevices.ashx 存在SQL注入漏洞",
+    "https://mp.weixin.qq.com/s/DvMfj3w-wGUIlUW-GZjO7w": "CVE-2026-110264：GitLab Onigmo 正则引擎整数溢出未授权 RCE 漏洞分析",
+    "https://mp.weixin.qq.com/s/whxU3U2P_DcHJR2-bnW3Hg": "PHP代码审计-PHPCMS 前台RCE漏洞"
 }
