@@ -28468,5 +28468,7 @@
     "https://mp.weixin.qq.com/s/UmhuX1-JReN4-hK7_d0ozQ": "一条聊天消息接管整台电话交换机：FreeSWITCH 9.8分命令执行（CVE-2026-116779，附PoC）",
     "https://mp.weixin.qq.com/s/RN7HKRKZ8Sy_6F9D5EW04w": "TeamViewer 高危漏洞：被你连上的那台机器，反手拿下你的电脑",
     "https://mp.weixin.qq.com/s/P2SxONnqMAsAWbcLAf6ehA": "漏洞复现 | 医药商品信息发布系统 Faclist.aspx 存在SQL注入漏洞",
-    "https://mp.weixin.qq.com/s/AJL1jo4Vu4_efBCy2nF5EQ": "【安全圈】24小时内超6万次攻击针对WordPress RCE漏洞，更新过程无需登录就可以利用"
+    "https://mp.weixin.qq.com/s/AJL1jo4Vu4_efBCy2nF5EQ": "【安全圈】24小时内超6万次攻击针对WordPress RCE漏洞，更新过程无需登录就可以利用",
+    "https://mp.weixin.qq.com/s/7aijQ-Hkalwr6-l9rGdOSg": "【已复现】hello Mrs. Router. CVE-2026-102764 BeyondTrust Remote Support 未认证文件写入漏洞",
+    "https://mp.weixin.qq.com/s/oL0uh5iBK_4lht5pZXB6JA": "AI 智能体漏洞挖掘：让 Agent 跑通一个 SQLi 到 RCE 的复盘"
 }
