@@ -1,0 +1,228 @@
+#  WordPress不登录也能写配置 漏洞藏在升级临时目录  
+YGnight
+                    YGnight  night安全   2026-11-02 02:31  
+  
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/LAQpgdWQSctVS8Ps0NsFTqMiasz8uDibcvoib0spt17ORFYGT7Lk8y0JElHpWukiczXboIicO8mrOUut0DwfE4PvMwpuReeibS0yQHqN8Tictdm4Z4/640?wx_fmt=png&from=appmsg "")  
+  
+## 一、漏洞描述  
+  
+升级本来是站点的自保动作，这次它自己开了一个口子。  
+<table><tbody><tr><th style="padding: 10px 12px;border: 1px solid rgb(209, 213, 219);text-align: left;font-weight: bold;color: rgb(26, 26, 26);background-color: rgb(243, 244, 246);white-space: nowrap;"><section><span leaf="">编号</span></section></th><td style="padding: 10px 12px;border: 1px solid rgb(209, 213, 219);color: rgb(51, 51, 51);"><section><span leaf="">没有 CVE。GitHub 公告 GHSA-4w3m-c66w-69mg 于 10 月 29 日发布，cve_id 一栏为空</span></section></td></tr><tr><th style="padding: 10px 12px;border: 1px solid rgb(209, 213, 219);text-align: left;font-weight: bold;color: rgb(26, 26, 26);background-color: rgb(243, 244, 246);white-space: nowrap;"><section><span leaf="">什么洞</span></section></th><td style="padding: 10px 12px;border: 1px solid rgb(209, 213, 219);color: rgb(51, 51, 51);"><section><span leaf="">升级途中解压出来的那份临时代码能从外网访问，里面自带的安装程序可以被直接打开</span></section></td></tr><tr><th style="padding: 10px 12px;border: 1px solid rgb(209, 213, 219);text-align: left;font-weight: bold;color: rgb(26, 26, 26);background-color: rgb(243, 244, 246);white-space: nowrap;"><section><span leaf="">出错的地方</span></section></th><td style="padding: 10px 12px;border: 1px solid rgb(209, 213, 219);color: rgb(51, 51, 51);"><section><span leaf="">wp-admin/includes/class-wp-upgrader.php 里的 unpack_package，加 update-core.php 里的 update_core</span></section></td></tr><tr><th style="padding: 10px 12px;border: 1px solid rgb(209, 213, 219);text-align: left;font-weight: bold;color: rgb(26, 26, 26);background-color: rgb(243, 244, 246);white-space: nowrap;"><section><span leaf="">什么情况会中</span></section></th><td style="padding: 10px 12px;border: 1px solid rgb(209, 213, 219);color: rgb(51, 51, 51);"><section><span leaf="">正在跑完整包核心升级，后台自动更新算在内，wp-content/upgrade 能被外网访问且跑得动 PHP，请求赶在清理那一步之前到达</span></section></td></tr><tr><th style="padding: 10px 12px;border: 1px solid rgb(209, 213, 219);text-align: left;font-weight: bold;color: rgb(26, 26, 26);background-color: rgb(243, 244, 246);white-space: nowrap;"><section><span leaf="">中招会怎样</span></section></th><td style="padding: 10px 12px;border: 1px solid rgb(209, 213, 219);color: rgb(51, 51, 51);"><section><span leaf="">安装程序按提交上来的数据库信息写一份 wp-config.php，这份配置跟着搬进正式站点，站点从此读的是对方那个库</span></section></td></tr><tr><th style="padding: 10px 12px;border: 1px solid rgb(209, 213, 219);text-align: left;font-weight: bold;color: rgb(26, 26, 26);background-color: rgb(243, 244, 246);white-space: nowrap;"><section><span leaf="">影响范围</span></section></th><td style="padding: 10px 12px;border: 1px solid rgb(209, 213, 219);color: rgb(51, 51, 51);"><section><span leaf="">4.7 到 7.1.3。4.6 及更早没有补丁，官方只维护最新一个大版本</span></section></td></tr><tr><th style="padding: 10px 12px;border: 1px solid rgb(209, 213, 219);text-align: left;font-weight: bold;color: rgb(26, 26, 26);background-color: rgb(243, 244, 246);white-space: nowrap;"><section><span leaf="">修到哪个版本</span></section></th><td style="padding: 10px 12px;border: 1px solid rgb(209, 213, 219);color: rgb(146, 64, 14);font-weight: bold;"><section><span leaf="">7.1.4，其余分支从 7.0.8 一路排到 4.7.39，一共 25 个小版本</span></section></td></tr><tr><th style="padding: 10px 12px;border: 1px solid rgb(209, 213, 219);text-align: left;font-weight: bold;color: rgb(26, 26, 26);background-color: rgb(243, 244, 246);white-space: nowrap;"><section><span leaf="">打分</span></section></th><td style="padding: 10px 12px;border: 1px solid rgb(209, 213, 219);color: rgb(51, 51, 51);"><section><span leaf="">Wordfence 给 CVSS 8.1 并强调攻击复杂度高，Patchstack 同样标 AC:H，GitHub 公告只标 low，三套口径不一致</span></section></td></tr><tr><th style="padding: 10px 12px;border: 1px solid rgb(209, 213, 219);text-align: left;font-weight: bold;color: rgb(26, 26, 26);background-color: rgb(243, 244, 246);white-space: nowrap;"><section><span leaf="">现成脚本</span></section></th><td style="padding: 10px 12px;border: 1px solid rgb(209, 213, 219);color: rgb(51, 51, 51);"><section><span leaf="">截至 10 月 30 日，GitHub、X、Exploit-DB、Nuclei 模板库与 Metasploit 待合并请求里都没有公开利用代码，出自 ThreatWire 的检索</span></section></td></tr><tr><th style="padding: 10px 12px;border: 1px solid rgb(209, 213, 219);text-align: left;font-weight: bold;color: rgb(26, 26, 26);background-color: rgb(243, 244, 246);white-space: nowrap;"><section><span leaf="">在野情况</span></section></th><td style="padding: 10px 12px;border: 1px solid rgb(209, 213, 219);color: rgb(51, 51, 51);"><section><span leaf="">Wordfence 的拦截规则 10 月 28 日 20 点 30 分上线，九分钟后第一次命中，21 小时记到 18,500 多次请求，未报告成功拿站的案例</span></section></td></tr></tbody></table>  
+22 个问题里，只有这一条不需要登录。  
+  
+两个主要来源对着小批站点连扫约 14.5 小时，其余来源换着目录名和版本号试，扫的是升级那一刻的窗口，不是某个固定路径。  
+## 二、漏洞原理  
+  
+完整包升级开始后，WordPress 先把整份新代码解压到 wp-content/upgrade 下面的一个目录，再往站点根目录搬。  
+  
+中间这段，新代码是能直接访问到的。  
+  
+// wp-admin/includes/class-wp-upgrader.php 7.1.3 修复前  
+$upgrade_folder = $wp_filesystem->wp_content_dir() . 'upgrade/';  
+// Clean up contents of upgrade directory beforehand.  
+$upgrade_files = $wp_filesystem->dirlist( $upgrade_folder );  
+if ( ! empty( $upgrade_files ) ) {  
+    foreach ( $upgrade_files as $file ) {  
+        $wp_filesystem->delete( $upgrade_folder . $file['name'], true );  
+    }  
+}  
+$working_dir = $upgrade_folder . basename( basename( $package, '.tmp' ), '.zip' );  
+  
+目录名取自安装包的文件名，前面是包名加版本号，后面跟 6 位随机字符，那是下载时生成的临时文件带出来的。  
+  
+省事的路子在索引上。  
+  
+清理这一趟把目录清空，核心自己又不往这里放 index.php。服务器开着目录索引，那个带随机后缀的目录名就摆在页面上了。  
+  
+完整包里带着安装程序 wp-admin/setup-config.php。  
+  
+直接请求这个地址，WordPress 本体不加载，插件不加载，安全插件一样不加载。它只是一份能跑的 PHP，按提交上来的数据库信息写 wp-config.php。  
+  
+库是攻击者自己的，写出来的配置也就听他的。  
+  
+窗口只有几秒。Wordfence 在实验室量到的可用时间就是几秒，扫描方因此改成反复轮询，等升级自己开始。  
+  
+搬文件那一步，update_core 手里有一份跳过名单。  
+  
+// wp-admin/includes/update-core.php 7.1.3 修复前  
+$skip = array( 'wp-content', 'wp-includes/version.php' );  
+// 7.1.4 修复后，wp-config.php 进名单  
+$skip = array( 'wp-content', 'wp-includes/version.php', 'wp-config.php' );  
+  
+wp-content 与 version.php 在名单里，wp-config.php 不在。临时副本里那份配置会被一起搬进正式站点。  
+  
+站点从此读对方的库。  
+  
+补丁一共改动三处，全在这两个文件里。  
+  
+// wp-admin/includes/class-wp-upgrader.php 7.1.4 修复后  
+private function get_working_dir_name( $package ) {  
+    $name = basename( basename( $package, '.tmp' ), '.zip' );  
+    return $name . '-' . wp_generate_password( 16, false );  
+}  
+foreach ( $upgrade_files as $file ) {  
+    if ( 'index.php' === $file['name'] ) {  
+        continue;  
+    }  
+    $wp_filesystem->delete( $upgrade_folder . $file['name'], true );  
+}  
+if ( ! $wp_filesystem->exists( $upgrade_folder . 'index.php' ) ) {  
+    $wp_filesystem->put_contents( $upgrade_folder . 'index.php', "<?php\n// Silence is golden.\n", FS_CHMOD_FILE );  
+}  
+  
+随机位从 6 位加到 16 位，清理跳过 index.php 并在缺的时候补一份，wp-config.php 写进跳过名单。  
+## 三、修复建议  
+  
+升级  
+到  
+7.1.4，其余分支从 7.0.8 一路排到 4.7.39，一共 25 个小版本  
+## 近期值得重点关注的漏洞预警  
+  
+[【紧急漏洞预警】nacos爆出权限绕过漏洞，可以创建管理员账户，经过分析有点出处（已复现，exp脚本已编写）](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486343&idx=1&sn=b67c4eb02c03af9c3b206b1241ff7e9c&scene=21#wechat_redirect)  
+  
+  
+[【紧急漏洞预警】PHP爆出两个代码执行漏洞(POC已公开)CVE-2026-109618与CVE-2026-10961](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486548&idx=1&sn=49ce9c8935b704b70b2510450095dfe2&scene=21#wechat_redirect)  
+  
+  
+[【漏洞预警】Node.js Brotli解码器越界写远程代码执行漏洞(POC已公开)CVE-2026-111497](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486558&idx=1&sn=86192ade022139444686f1ab58730b52&scene=21#wechat_redirect)  
+  
+  
+[【漏洞预警】近期Signal 通话组件 RingRTC被爆出高危漏洞，编号为CVE-2026-113380](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486553&idx=1&sn=912113d89689267f295341396fe1cca0&scene=21#wechat_redirect)  
+  
+  
+[【漏洞预警】Fortinet FortiSIEM‌路径遍历导致RCE漏洞(POC已公开)CVE-2026-106173](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486536&idx=1&sn=f25d211f8777ed7141cd3c8f17bfe881&scene=21#wechat_redirect)  
+  
+  
+[【漏洞预警】linux内核漏洞(POC已公开)已有 Android/ARM64 的利用实现CVE-2026-98260](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486531&idx=1&sn=ca334fbe64a624ca2e3834b5c650819b&scene=21#wechat_redirect)  
+  
+  
+[【漏洞预警】Next.js爆出RCE漏洞(POC已公开)CVE-2026-96889](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486516&idx=1&sn=e254735e77df736b47896c588dde9557&scene=21#wechat_redirect)  
+  
+  
+[【漏洞预警】Nextcloud 已有服务器被写入后门](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486511&idx=1&sn=61d128896479d0eb17ad5e90a124d05e&scene=21#wechat_redirect)  
+  
+  
+[【紧急漏洞预警】GitLab整数溢出导致RCE漏洞(POC已公开)](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486505&idx=1&sn=b424220b3cbdc1f7cbcdd7b4d1ae6da5&scene=21#wechat_redirect)  
+  
+  
+[【漏洞预警】AnyDesk Linux存在堆缓冲区溢出漏洞(POC已公开)](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486500&idx=1&sn=fb8fdf3dd59e252bf04360dfabac5a3c&scene=21#wechat_redirect)  
+  
+  
+[【漏洞预警】macOS爆出路径穿越漏洞CVE-2026-84568(POC已公开)](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486490&idx=1&sn=1009bcc6cb5416474ffa0a4f499bf67a&scene=21#wechat_redirect)  
+  
+  
+[PostgreSQL爆出远程代码执行漏洞(POC已公开)](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486480&idx=1&sn=31416416494b366dc85cf4d20e0ab3ee&scene=21#wechat_redirect)  
+  
+  
+[【漏洞预警】Atlassian八款产品爆任意文件读取漏洞(附POC)](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486475&idx=1&sn=3c669c88388236c2af996ceb9782e928&scene=21#wechat_redirect)  
+  
+  
+[【漏洞预警】Joomla视频画廊扩展存在SQL注入漏洞(POC已公开)](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486469&idx=1&sn=6146142b1b0095532a2d87dcbcf738df&scene=21#wechat_redirect)  
+  
+  
+[【漏洞预警】Roundcube网页邮件客户端存在SQL注入漏洞(附POC)](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486464&idx=1&sn=93e0df392b292c72408f2c33cfb868ca&scene=21#wechat_redirect)  
+  
+  
+[WordPress页面模板存在文件包含漏洞(POC已公开)CVE-2026-87902](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486459&idx=1&sn=5dc658a83a772526773f3e87b1ac8ad0&scene=21#wechat_redirect)  
+  
+  
+[WordPress插件Forminator未认证短代码执行漏洞(poc已公开)CVE-2026-92229](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486454&idx=1&sn=64894c978fbfac86c914945580147bd9&scene=21#wechat_redirect)  
+  
+  
+[WordPress插件Authorizer存在权限提升漏洞(POC已公开)CVE-2026-81294](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486449&idx=1&sn=20a4f9a399ae34e07a27c7b6d2049e45&scene=21#wechat_redirect)  
+  
+  
+[WordPress插件MStoreAPI存在认证绕过漏洞(POC已公开)CVE-2026-13447](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486444&idx=1&sn=a22077edeab35852d6791825ebba8b10&scene=21#wechat_redirect)  
+  
+  
+[CakePHP爆出SQL注入漏洞(POC已公开)CVE-2026-77635](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486439&idx=1&sn=5030655c1d40e179369ab972ddd5dfc9&scene=21#wechat_redirect)  
+  
+  
+[Node.js模块proxy-addr爆出严重漏洞CVE-2026-90711](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486429&idx=1&sn=fc1772f8703bdd4128ac829c1ae8b371&scene=21#wechat_redirect)  
+  
+  
+[Langflow爆出代码执行漏洞CVE-2026-17633  (POC已公开)](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486424&idx=1&sn=0fec55e718cb9fb60eb91ca24307fd1a&scene=21#wechat_redirect)  
+  
+  
+[Apache CVE-2026-42536，补它只用一行，洞龄十四年](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486419&idx=1&sn=393b6baeea4f624ffa8440058c0d324e&scene=21#wechat_redirect)  
+  
+  
+[【紧急】搜狗输入法爆出远程代码执行漏洞CVE-2026-51990  ，已被在野利用](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486413&idx=1&sn=0b2c6a470a165f288873fa6bace1d77b&scene=21#wechat_redirect)  
+  
+  
+[【紧急】无需登录就能获取 GitLab 的任意文件数据(附POC)](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486408&idx=1&sn=06f47231a649e03866f9e9524b5469a4&scene=21#wechat_redirect)  
+  
+  
+[【紧急】JumpServer堡垒机被公布Access Key泄露漏洞，可以实现提权](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486403&idx=1&sn=8e4dc6a684e95b9dc5871b1aca487a57&scene=21#wechat_redirect)  
+  
+  
+[Spring Cloud Azure公布严重漏洞 无需任何权限即可取得登录会话](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486398&idx=1&sn=c64f6f82f75da584d032b99509ffc726&scene=21#wechat_redirect)  
+  
+  
+[【漏洞POC已公开】Linux RDS 爆出提权漏洞 一块内存放两次，root就到手了](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486393&idx=1&sn=629bab1cc81fbee25e8e6dd558ee155b&scene=21#wechat_redirect)  
+  
+  
+[Tenda光猫爆出严重漏洞，目前无补丁(POC已公布](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486388&idx=1&sn=eb210feb27b85439b53b10e595f7667e&scene=21#wechat_redirect)  
+  
+  
+[13 行补丁，堵住Linux能拿 root 的内核洞(EXP已公开)](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486383&idx=1&sn=a87059fbbca283a7bd64ad78280ed00a&scene=21#wechat_redirect)  
+  
+  
+[48 字节，换走一台 Windows 的 SYSTEM(CVE-2026-62735漏洞POC已公开)](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486378&idx=1&sn=f9e17fe32b6a3c67249fb4f037a3f1c6&scene=21#wechat_redirect)  
+  
+  
+[【漏洞预警】linux删个网桥就能提权root？目前没有补丁(POC已公开)](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486373&idx=1&sn=5f8bb9b0ff7c9fad75a8071c026b9f93&scene=21#wechat_redirect)  
+  
+  
+[【漏洞预警】Linux三年前补上的洞，又一次被挖开了](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486368&idx=1&sn=337dc5fa148d0b24e7dbd352a71e184f&scene=21#wechat_redirect)  
+  
+  
+[【情报】支付宝8.2亿数据泄露？给同事说一声，别自己吓自己](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486362&idx=1&sn=927fdf3d81c79a2ff8871086f0e78a8b&scene=21#wechat_redirect)  
+  
+  
+[【漏洞预警】自己注册个号，就能搬空别人的 Magento 订单和支付卡（POC已公开）](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486363&idx=1&sn=344a1f2e1a64b3b3be1509610edd2a0d&scene=21#wechat_redirect)  
+  
+  
+[【漏洞预警】Next.js 爆出新漏洞，不用登录实现命令执行(POC已公开)](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486348&idx=1&sn=350cb257c3bfc3372e2dd50f2eb13738&scene=21#wechat_redirect)  
+  
+  
+[【漏洞补丁绕过预警】Redis CVE-2026-23479变种高危漏洞，EXP已公开](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486299&idx=1&sn=7d1d8a95dad56cb021c2aa4ff549ee62&scene=21#wechat_redirect)  
+  
+  
+[【漏洞补丁绕过】超 30 万 WordPress 站点受影响，Forminator 文件上传漏洞（附POC）](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486304&idx=1&sn=a22d6632366218b72fd68b3a5cb91557&scene=21#wechat_redirect)  
+  
+  
+[【漏洞预警】Exchange爆出RCE漏洞，利用Exchange 帮另一台 Exchange 开门（POC已公开）](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486323&idx=1&sn=124dd54f863f64371f18c668d52e1fab&scene=21#wechat_redirect)  
+  
+  
+[【漏洞预警】不用登录，一个请求就能让 GeoServer 乖乖执行命令（POC已公开）](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486318&idx=1&sn=b478f775998b89579c53d4e0fbdc8c6e&scene=21#wechat_redirect)  
+  
+  
+[【漏洞预警】Keycloak不登录就能接管任意账户，双重验证也拦不住](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486309&idx=1&sn=d5c1a812f00448d397d3e3a8e78cdd45&scene=21#wechat_redirect)  
+  
+  
+[【漏洞预警】 8月WebLogic公布了9个漏洞，有一个需要重点关注](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486294&idx=1&sn=eb26bc5f8fcafc9ab402b77acdb1b2a4&scene=21#wechat_redirect)  
+  
+  
+[【漏洞预警】近期MongoDB 公布了5个漏洞，最严重的一个可以不认证、远程就能拿下你电脑](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486289&idx=1&sn=10023bdd570d9f011eef242a23f83bb6&scene=21#wechat_redirect)  
+  
+  
+[【0DAY漏洞】 全球5G手机芯片厂商之一‌的紫光展锐SOC存在RCE漏洞，影响数十家手机厂商，还未发布补丁](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486279&idx=1&sn=5e1452f6984bf3d4b4d35a2240676df5&scene=21#wechat_redirect)  
+  
+  
+[【漏洞告警】安卓 14 到 16 全中招，通讯录 SQL 注入漏洞正在抄家（POC已公开）](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486274&idx=1&sn=4bacf56f2045fca36b7b3de4be3ae591&scene=21#wechat_redirect)  
+  
+  
+[【漏洞预警】紧急排查，SMB服务再曝新漏洞，利用脚本已公开](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486251&idx=1&sn=633ed2b7d916bcf98404a7b3a9a8c4b4&scene=21#wechat_redirect)  
+  
+  
+[【漏洞预警】不用输密码，对方已经接管你的Mac：官方补丁公布macOS存在未鉴权RCE漏洞](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486246&idx=1&sn=eaf0c51686e92e89826098fcf51fb959&scene=21#wechat_redirect)  
+  
+  
+[【0day漏洞预警】MariaDB 13 爆 9.8 分 RCE 链：最低 USAGE 权限就能远程执行命令](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486225&idx=1&sn=bd13754fd9378e01a088cf996fa5b557&scene=21#wechat_redirect)  
+  
+  
+[VMware 爆 5 个洞，两个 9.8 不用密码就能打穿 vCente](https://mp.weixin.qq.com/s?__biz=MzU5MTc1NTE0Ng==&mid=2247486204&idx=1&sn=2590e283b0981541da74647ddc817282&scene=21#wechat_redirect)  
+  
+  
+  
