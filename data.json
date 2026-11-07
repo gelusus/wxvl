@@ -28653,5 +28653,6 @@
     "https://mp.weixin.qq.com/s/IZsSYpO3W_ZQ-nukETmKYg": "Microsoft Paint 远程代码执行漏洞 CVE-2026-83844 修复上架：补丁只走微软商店、不走 Windows Update",
     "https://mp.weixin.qq.com/s/5ROf3BX_I1sOoKqiq3nr3g": "【安全圈】MFA 被绕过：SonicWall SSL-VPN 漏洞已在野利用",
     "https://mp.weixin.qq.com/s/PH3bOzQhBS8TPMCGk2i2cQ": "塔塔车联网App四类漏洞披露：从手机端凭据到车辆服务，风险边界在哪里",
-    "https://mp.weixin.qq.com/s/UI3OYyjFUUZkteAAO6TKrg": "可验证·可复现·可规模化：AI驱动的Windows内核漏洞挖掘与Fuzzing实战"
+    "https://mp.weixin.qq.com/s/UI3OYyjFUUZkteAAO6TKrg": "可验证·可复现·可规模化：AI驱动的Windows内核漏洞挖掘与Fuzzing实战",
+    "https://mp.weixin.qq.com/s/nO6OFJ430zdQFTmzLmwQdw": "Veeam备份与复制系统存在严重漏洞，允许未经身份验证的攻击者绕过授权"
 }
