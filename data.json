@@ -28646,5 +28646,12 @@
     "https://mp.weixin.qq.com/s/153oq68J0Hvng5qiO2SWYw": "赛博安全狗：科学数据管理框架Rucio修复高危REST API授权绕过漏洞CVE-2026-58273 (11.06)",
     "https://mp.weixin.qq.com/s/aldz9GN93BpkjAXvj1xyBg": "赛博安全狗：亚马逊EKS网络策略代理存在高危漏洞CVE-2026-122266，可绕过入口策略 (11.05)",
     "https://mp.weixin.qq.com/s/UQqm3TFRhG6kjWxIWCNUtg": "（二次更新）【已支持检测】OpenSSH musl 环境下密码认证绕过漏洞（CVE-2026-123158）",
-    "https://mp.weixin.qq.com/s/zfS9KSgVOnFTrYLQBW6aKg": "TeamViewer安全漏洞可能将远程支持会话变成计算机控制"
+    "https://mp.weixin.qq.com/s/zfS9KSgVOnFTrYLQBW6aKg": "TeamViewer安全漏洞可能将远程支持会话变成计算机控制",
+    "https://mp.weixin.qq.com/s/WasczGJ5tKGzBu2paKNM2g": "SonicWall VPN 一个旧密码跳过 MFA CVE-2026-19868",
+    "https://mp.weixin.qq.com/s/v63HFMNS4Mkk25BLyixshQ": "海外SRC漏洞挖掘：\\绕过403 + 接口不校验token字段签发JWT",
+    "https://mp.weixin.qq.com/s/RFPFZVHPqTWC9vA_1QG4ww": "给大模型装上固件审计员的骨架：一个 IoT 固件漏洞挖掘 Skill 的设计与实现",
+    "https://mp.weixin.qq.com/s/IZsSYpO3W_ZQ-nukETmKYg": "Microsoft Paint 远程代码执行漏洞 CVE-2026-83844 修复上架：补丁只走微软商店、不走 Windows Update",
+    "https://mp.weixin.qq.com/s/5ROf3BX_I1sOoKqiq3nr3g": "【安全圈】MFA 被绕过：SonicWall SSL-VPN 漏洞已在野利用",
+    "https://mp.weixin.qq.com/s/PH3bOzQhBS8TPMCGk2i2cQ": "塔塔车联网App四类漏洞披露：从手机端凭据到车辆服务，风险边界在哪里",
+    "https://mp.weixin.qq.com/s/UI3OYyjFUUZkteAAO6TKrg": "可验证·可复现·可规模化：AI驱动的Windows内核漏洞挖掘与Fuzzing实战"
 }
