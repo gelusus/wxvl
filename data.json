@@ -28742,5 +28742,7 @@
     "https://mp.weixin.qq.com/s/o2Zw0Ub2uwG8aUDUgLREdg": "Notepad++发布8.9.9版本，修复6个可触发插件命令执行的漏洞",
     "https://mp.weixin.qq.com/s/cLS6_ltFSyyr6X3ScsPlUg": "【安全圈】SSHole与GPUStack遭在野利用！CISA急列四漏洞",
     "https://mp.weixin.qq.com/s/Z95pa-skAVcCxSj-FKdR1g": "【在野利用】漏洞通告 | Oracle E-Business Suite TCF 未认证 SQL 注入漏洞(CVE-2026-101767)",
-    "https://mp.weixin.qq.com/s/5JlqPkyn0b9SBMHACwWg0A": "谷歌修复Chrome在野0Day漏洞，可远程执行恶意代码"
+    "https://mp.weixin.qq.com/s/5JlqPkyn0b9SBMHACwWg0A": "谷歌修复Chrome在野0Day漏洞，可远程执行恶意代码",
+    "https://mp.weixin.qq.com/s/6GuBbj-n47p8IjYalwi6aQ": "未认证绕过登录：SAP 一天 4 个 10.0 分漏洞",
+    "https://mp.weixin.qq.com/s/_18Jq67JPWUsOj5OCFlY3w": "Tenda AC20（≤ V16.03.08.12）路由器缓冲区溢出漏洞分析"
 }
