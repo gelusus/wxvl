@@ -28744,5 +28744,20 @@
     "https://mp.weixin.qq.com/s/Z95pa-skAVcCxSj-FKdR1g": "【在野利用】漏洞通告 | Oracle E-Business Suite TCF 未认证 SQL 注入漏洞(CVE-2026-101767)",
     "https://mp.weixin.qq.com/s/5JlqPkyn0b9SBMHACwWg0A": "谷歌修复Chrome在野0Day漏洞，可远程执行恶意代码",
     "https://mp.weixin.qq.com/s/6GuBbj-n47p8IjYalwi6aQ": "未认证绕过登录：SAP 一天 4 个 10.0 分漏洞",
-    "https://mp.weixin.qq.com/s/_18Jq67JPWUsOj5OCFlY3w": "Tenda AC20（≤ V16.03.08.12）路由器缓冲区溢出漏洞分析"
+    "https://mp.weixin.qq.com/s/_18Jq67JPWUsOj5OCFlY3w": "Tenda AC20（≤ V16.03.08.12）路由器缓冲区溢出漏洞分析",
+    "https://mp.weixin.qq.com/s/mRWVj0m95bZ1JDYlWxqFVw": "APT29利用N DAY漏洞对 iOS 和 Android 设备发起零点击攻击",
+    "https://mp.weixin.qq.com/s/B3MgqCjnWl6tHfe8uz3rsw": "盲IDOR侧信道枚举漏洞",
+    "https://mp.weixin.qq.com/s/uZpF5Qxwp62jXMvGnBXqaw": "渗透测试-如何高效率挖掘漏洞",
+    "https://mp.weixin.qq.com/s/NxiXOes2OTwOZIIRzJ8-iA": "SonicWall警告称，已停止支持的GMS软件存在未修复的漏洞",
+    "https://mp.weixin.qq.com/s/tt_gZcbuQXbwFU8JI-wRMA": "漏洞通告|Apache OFBiz服务器端模板注入漏洞(CVE-2026-85627)",
+    "https://mp.weixin.qq.com/s/RqXtHhfxexJRyFTw34Oe-Q": "POC",
+    "https://mp.weixin.qq.com/s/48DeL0zOFGQ-QD-2smMs9g": "CVE | CVE-2026-98260漏洞复现",
+    "https://mp.weixin.qq.com/s/kXLsU-NUa_2bVUx0_gT4JQ": "安全工具丨一个集资产收集、攻击面评估、漏洞验证与 AI 渗透对话于一体的安全测试平台",
+    "https://mp.weixin.qq.com/s/5tq4wyp8apdJ6o6fObOYrA": "赛博安全狗：微软Windows DHCP客户端双重释放漏洞CVE-2026-96115可远程攻击 (11.11)",
+    "https://mp.weixin.qq.com/s/ZLZiH7kAFVS0yza01v5dEA": "11月10日漏洞：5个，3个认证绕过、1个未授权、1个信息泄露",
+    "https://mp.weixin.qq.com/s/vaHRb3hQJp08_M2PajvCjw": "OpenSSL 安全公告详述 QUIC、AES-GCM-SIV 和 CMS 中的五个漏洞",
+    "https://mp.weixin.qq.com/s/h25jk3L33FAuD8v1a524XQ": "SonicWall 警告：SSL-VPN MFA 绕过漏洞已被攻击者利用",
+    "https://mp.weixin.qq.com/s/0pnfYVlJireNEUS0NRM0zQ": "漏洞预警 | Windows画图板越界读取漏洞",
+    "https://mp.weixin.qq.com/s/1ST4x2CB5lsISa8QrXBJVA": "微软11月补丁日多个产品安全漏洞风险通告：1个在野利用、43个紧急漏洞",
+    "https://mp.weixin.qq.com/s/A46Fo0tF8W9RV4hbLg28Xw": "漏洞预警 | 金和OA SQL注入漏洞"
 }
