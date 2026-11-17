@@ -28912,5 +28912,6 @@
     "https://mp.weixin.qq.com/s/dfeRPl6idCnPrAXBQlYZ2w": "【已复现】LibreOffice 远程代码执行漏洞(CVE-2026-104692、CVE-2026-104007)安全风险通告",
     "https://mp.weixin.qq.com/s/HU2w8pXviSqb-drdXNwM6Q": "【一天一个nacos漏洞·第十三天】【高危】发了的能改回来，没审的能改上去",
     "https://mp.weixin.qq.com/s/V4xp3FqyBpRakHmB9t46Qg": "【已复现】LibreOffice 打开恶意文档即可触发远程代码执行",
-    "https://mp.weixin.qq.com/s/P8HHmufULlKJrH16357NIQ": "OpenAI推出Daybreak安全工具：AI智能体自动化漏洞验证与修复；国家信息安全服务资质（网络安全监理类一级）正式发布| 牛览"
+    "https://mp.weixin.qq.com/s/P8HHmufULlKJrH16357NIQ": "OpenAI推出Daybreak安全工具：AI智能体自动化漏洞验证与修复；国家信息安全服务资质（网络安全监理类一级）正式发布| 牛览",
+    "https://mp.weixin.qq.com/s/c1e02Poy3baobXZj095TsQ": "【已复现】CVE-2026-90436 Confluence 远程 API SOAP 组件 Apache Axis 命令执行漏洞"
 }
