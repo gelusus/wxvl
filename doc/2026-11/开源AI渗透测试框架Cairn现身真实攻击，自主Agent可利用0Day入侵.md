@@ -1,28 +1,25 @@
 #  开源AI渗透测试框架Cairn现身真实攻击，自主Agent可利用0Day入侵  
- FreeBuf   2026-11-24 10:00  
-  
-![FreeBuf](https://mmbiz.qpic.cn/sz_mmbiz_gif/icBE3OpK1IX2vv2jNEZ5jtwxWiaNicFzhrpTdukvQBvW8uYTtxqHKVmBQW1C6Y4a9PsYNw5Lib0tIbeiaibBuL0Gu0OTgcgwCpPPXCvBA1tfMXVY4/640?wx_fmt=gif "")  
-  
-  
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icBE3OpK1IX1xyk7jE49Pw6lfkd47GaQrnAGQESl0wD1bm8y42zcK5pDH6ic6Hx0EqgrDXp6X9IAuuiaIszqpQbMH8hHicszcV7aYVXFk6yRgicc/640?wx_fmt=png&from=appmsg "")  
-  
+e安在线
+                    e安在线  e安在线   2026-11-25 08:03  
   
 某中国背景威胁组织运行的自主AI Agent耗时近一整天尝试入侵高校服务器未果，随后在一款开源医学影像AI应用中找到并利用一个0Day漏洞，成功拿下据点。  
   
   
 亚马逊威胁情报团队披露，这些Agent运行在开源AI渗透测试框架Cairn上，几乎不需要人工引导。操作者仅向其提供目标IP地址列表，设定的目标为：“获取shell访问权限。”  
   
+![](https://mmbiz.qpic.cn/mmbiz_png/Hxdb7gjfn9nEI1ZPicACxrmxPrn64FFKLD3vYZ5W1ib1Qc6eNYFibYRSDGSGbV5OFCEyP3o9MkAMxnqqXhGad0q529dCYsyPo5iaJKoKAibrxcm4/640?wx_fmt=png&from=appmsg "")  
   
-![](https://mmbiz.qpic.cn/mmbiz_png/icBE3OpK1IX1g1N7hNFlQbMgmEYC2Hft1w3CL9Eso0FksFcicx7Cpfljrxv9TibKEVRehRRiaFiaEVibnH27r2nNY5H67teCfiaDgKNiaeaqA5OI32o/640?wx_fmt=png&from=appmsg "")  
+**01**  
+  
+![](https://mmbiz.qpic.cn/mmbiz_png/Hxdb7gjfn9kbJFZZBVFfk82fRsUonnbzGpn7cZUDzaHOkoa2AcGYWoKgceibUWHEssKA98mSianNaL0QF5iaibmtbXs9DbL5tYr7fXrphhgnffs/640?wx_fmt=png&from=appmsg "")  
   
   
-Part  
-01  
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/Hxdb7gjfn9nA4yGmjRO5Kdoqq7NVacUbwoOgiaXMGT8WTSlfzSSDSibHibTF6OcAeZFILSTwKP5pozbGDOwRyvyW1vaZLSATA35y7ibECUiaZJJQ/640?wx_fmt=png&from=appmsg "")  
   
-AI Agent自主开展多轮探测  
   
-利用0Day攻入高校网络  
+**AI Agent自主开展多轮探测**  
   
+**利用0Day攻入高校网络**  
   
 此次攻击活动始于2026年9月8日，目标为中国大陆以外东亚地区高校的IP地址。  
   
@@ -47,14 +44,19 @@ AI Agent自主开展多轮探测
   
 此后人工操作者介入了其中一次会话，为Agent提供了通往第二所高校网络的代理隧道——该网络同样运行着存在漏洞的软件——并指挥Agent攻击网络内的其他机器。亚马逊威胁分析师认为，攻击者正是利用同一个0Day漏洞攻陷了这台服务器，搭建了上述隧道。  
   
+![](https://mmbiz.qpic.cn/mmbiz_png/Hxdb7gjfn9niakFr3U6iafaHkmGQWD62Libb29NHKB3uJxquSx8ntFFNxhpzZE1wEQMNsq6RLfxMaCibzxsaeKIBWnIUW09KTSmZetF5omaG23g/640?wx_fmt=png&from=appmsg "")  
   
-Part  
-02  
+**02**  
   
-Cairn已被多类威胁组织滥用  
+![](https://mmbiz.qpic.cn/mmbiz_png/Hxdb7gjfn9kia7DBJvRqTWRlkr3SEwvCjdcMDu3y2hLQYMIgzLUFYK7iaDqO3g6dJm6dscGjuYUF6VFbCNw6x3iaAib5ESds85PSpoib693U7nDE/640?wx_fmt=png&from=appmsg "")  
   
-野外攻击事件频发  
   
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/Hxdb7gjfn9n3nvsFwcW7Vc2Oxtb4UwRY0IoVeaEH9kOVM5hEKx08hicmhoO3x6IJ0hgcVmKlzyBj6YC4hia6cOq0RUIIsd51533LxNPW3rsm8/640?wx_fmt=png&from=appmsg "")  
+  
+  
+**Cairn已被多类威胁组织滥用**  
+  
+**野外攻击事件频发**  
   
 Cairn的开发者将其描述为一款通用问题求解引擎，能够“穿越未知状态空间”，寻找从起点到目标的路径。  
   
@@ -79,14 +81,19 @@ Gambit Security曾从攻击者的中转服务器上还原了一场以在线零�
   
 目前，勒索团伙、间谍组织滥用的开源攻击框架远不止Cairn一款。攻击者也已将ARTEX、PentAGI、HexStrike AI、CyberStrikeAI等框架用于攻击活动。谷歌分析师表示，威胁行为者还在测试自主搭建的Agent运行框架。  
   
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/Hxdb7gjfn9ngnG4kRvBNKl0qibpcoueVe9ibxykkoUqkqxOmTlYNibXp3HAxArQUsx7DmBlqdiblUd91wdAG6n1yhUrYiaibrmDiaa4j6x94QaC90E/640?wx_fmt=png&from=appmsg "")  
   
-Part  
-03  
+**03**  
   
-传统补丁策略已显不足  
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/Hxdb7gjfn9mJyrU5unl8IoSTMKXWk4SYpZRw1ncqjPPJVqZbKLNlRicA8jWLib2GqXic5ODxhb8f356ibaIYvRl4moIFOFs5NjbUpPxv8S8EEbw/640?wx_fmt=png&from=appmsg "")  
   
-防御需适配AI攻击节奏  
   
+![](https://mmbiz.qpic.cn/mmbiz_png/Hxdb7gjfn9nBY6sEl3aOcu8Ajic9sAGP9etia5xqMVeQJWSpwbUV3SfxvFJzPdyxibsljDTZd7iavdX9YH161KUqiaTlncNZ0JEZxTHOaFEqaFVA/640?wx_fmt=png&from=appmsg "")  
+  
+  
+**传统补丁策略已显不足**  
+  
+**防御需适配AI攻击节奏**  
   
 防御方应优先部署高置信度检测规则，并联动自动化响应，再由人工审核最终结果，而不是逐一审批Agent的每一步操作。毕竟，Agent的行动速度往往远超SOC团队的告警分诊效率。  
   
@@ -99,30 +106,16 @@ Part
   
 不过，仅靠快速打补丁已经难以应对这类攻击。AI工具不仅成本低廉，还能长时间持续行动，不断调整攻击方式，其耐心、持续性和攻击效率都给传统防御体系带来了新的挑战。企业因此还需要梳理维持业务正常运转所必需的核心系统，并提前验证遭受攻击后能否及时恢复。  
   
+![](https://mmbiz.qpic.cn/mmbiz_png/Hxdb7gjfn9mnDPAVHlZkJm3esQDPibZicKHichePUnOJf7TUO5f2hSCBQnojumyX3QIjz2dqSiasZWwmJuIWBX45H2j7XlZDR2DpduPquY8fPrk/640?wx_fmt=png&from=appmsg "")  
   
-参考来源：  
+声明：除发布的文章无法追溯到作者并获得授权外，我们均会注明作者和文章来源。如涉及版权问题请及时联系我们，我们会在第一时间删改，谢谢！文章来源：FreeBuf  
   
 Open-source AI pentesting framework Cairn keeps turning up in real-world attacks  
   
 https://www.helpnetsecurity.com/2026/11/23/cairn-ai-agents-autonomous-attacks/  
   
-###   
   
-### 推荐阅读  
-  
-  
-[](https://mp.weixin.qq.com/s?__biz=MjM5NjA0NjgyMA==&mid=2651351016&idx=3&sn=d224081e5f21f76580f08cd93c037d34&scene=21#wechat_redirect)  
-  
-  
-###   
-  
-### 电报讨论  
-  
-  
-[]()  
-  
-  
-###   
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/Hxdb7gjfn9nBKic8V1o3g3ekx1SwrKwyTiacZLKIYYHtZJIjIrw61zrqAibFwgFdfRBoxdTtNwOXxfnCqCz5Z2XLyXcnUqRButebXu2muV7I94/640?wx_fmt=png&from=appmsg "")  
   
   
   
