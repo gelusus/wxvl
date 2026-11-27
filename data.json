@@ -29151,5 +29151,22 @@
     "https://mp.weixin.qq.com/s/uyQ3ksHz0yYVkW8qsqYJKw": "【漏洞通告】Drupal 安装程序远程代码执行漏洞(CVE-2026-132165)",
     "https://mp.weixin.qq.com/s/9YN02PZjg4wUNOCHW34JLQ": "Apache OFBiz 未认证远程代码执行漏洞（CVE-2026-83542）",
     "https://mp.weixin.qq.com/s/qX0frfEY8JrCjyJsilCdLg": "强推一个AI 安全运营工作台（御枢 AegisOps） - 告警研判、应急响应、漏洞整改！",
-    "https://mp.weixin.qq.com/s/F35f9zhdRALATB-t8ouYsg": "漏洞预警 | LibreOffice远程代码执行漏洞"
+    "https://mp.weixin.qq.com/s/F35f9zhdRALATB-t8ouYsg": "漏洞预警 | LibreOffice远程代码执行漏洞",
+    "https://mp.weixin.qq.com/s/NVMJT7TdO3MqLy-EEYxajA": "《QAXSRC产品漏洞评级标准V3.4》",
+    "https://mp.weixin.qq.com/s/PxJmT5Jz1-FfUDn3LSN4GA": "【安全圈】Cacti在野0-day遭公开：仅需4次HTTP请求即可远程RCE",
+    "https://mp.weixin.qq.com/s/L1ey5IAcAYQ-7L6fc2NWVQ": "信息安全漏洞周报【第101期】",
+    "https://mp.weixin.qq.com/s/f1VunneH0UKJXMSVj6zDBw": "《QAXSRC漏洞评级标准V3.4》 发布说明",
+    "https://mp.weixin.qq.com/s/9s2oi7M4amAGlIcuxtrrDQ": "一个空对象换走管理员：Xen Orchestra 认证绕过深度分析（CVE-2026-133469·附PoC）",
+    "https://mp.weixin.qq.com/s/XULVbwPrtO1k4LGr34gRXQ": "n8n CVE-2025-68613 表达式沙箱逃逸致 RCE 漏洞复现",
+    "https://mp.weixin.qq.com/s/HyFujXw_KO7H-ztTX8qMGA": "逻辑漏洞导致0交互接管账号",
+    "https://mp.weixin.qq.com/s/hCZIEqKCDy63UBIJhvYBQg": "CVE-2026-119853 Windows RAS 服务提权漏洞分析",
+    "https://mp.weixin.qq.com/s/h6fFQT27aIeSJFKfbkls0A": "WordPress 插件 9.8 分未授权 RCE",
+    "https://mp.weixin.qq.com/s/kf9kqhh0d_uGLZvahCpWFQ": "CVE-2026-97798",
+    "https://mp.weixin.qq.com/s/JrQnm0lyafXBZXPUwT88tg": "IoT 固件漏洞AI挖掘系统 - ARTEX-IOT",
+    "https://mp.weixin.qq.com/s/e9-wZC-lG1xB2HqIo6W3Xg": "AI加速漏洞发现，但谁来解决漏洞修复难题？",
+    "https://mp.weixin.qq.com/s/nw9DL5sOvhKYH4terl_9kA": "【漏洞通告】Cacti远程代码执行漏洞（4http2shell）",
+    "https://mp.weixin.qq.com/s/IqIM1dVB6u4NOtrEP7dc5g": "【安全圈】Linux内核曝12年老漏洞：NFS2ROOT允许远程提权Root",
+    "https://mp.weixin.qq.com/s/UTttAxZe91qSfoIwUIyW_Q": "【漏洞通告】Linux内核NFS越界写入漏洞（CVE-2026-99362）",
+    "https://mp.weixin.qq.com/s/d45HruygFGer1aoqHiwHKw": "评论 | 切断黑色链条，堵住“简历开盒”漏洞",
+    "https://mp.weixin.qq.com/s/UiuKn9I_7sgdEKx9liG0xA": "【高危漏洞预警】Cacti Guest访客未授权远程代码执行漏洞"
 }
