@@ -29168,5 +29168,13 @@
     "https://mp.weixin.qq.com/s/IqIM1dVB6u4NOtrEP7dc5g": "【安全圈】Linux内核曝12年老漏洞：NFS2ROOT允许远程提权Root",
     "https://mp.weixin.qq.com/s/UTttAxZe91qSfoIwUIyW_Q": "【漏洞通告】Linux内核NFS越界写入漏洞（CVE-2026-99362）",
     "https://mp.weixin.qq.com/s/d45HruygFGer1aoqHiwHKw": "评论 | 切断黑色链条，堵住“简历开盒”漏洞",
-    "https://mp.weixin.qq.com/s/UiuKn9I_7sgdEKx9liG0xA": "【高危漏洞预警】Cacti Guest访客未授权远程代码执行漏洞"
+    "https://mp.weixin.qq.com/s/UiuKn9I_7sgdEKx9liG0xA": "【高危漏洞预警】Cacti Guest访客未授权远程代码执行漏洞",
+    "https://mp.weixin.qq.com/s/NuED70FGZkCFwRomVEv-zA": "四个请求，从游客到 Shell：Cacti 未授权 RCE 深度分析（QVD-2026-117631·附PoC）",
+    "https://mp.weixin.qq.com/s/GzTcylo5XZ_D8ZuAUEZxJQ": "Palo Alto Networks 警告：黑客利用了 Fragnesia 漏洞攻击了 PAN-OS 系统",
+    "https://mp.weixin.qq.com/s/2kOCMxbR_jnaqOFN-qMwZg": "11月27日漏洞：448条，OpenScape 满分、文件上传与 SSO 绕过",
+    "https://mp.weixin.qq.com/s/cguMd15zYiDtMxmjrsKSaw": "美国网络安全和基础设施安全局 (CISA) 警告：黑客正在积极利用思科、VMware、SAP 和 Apache 的漏洞",
+    "https://mp.weixin.qq.com/s/kJME5Zo4j0Kz9j3WMp9JBA": "LiteLLM MCP OAuth2 passthrough 认证绕过复现与分析",
+    "https://mp.weixin.qq.com/s/V3OinR4jGBuxYgz-re79ew": "俄罗斯黑客利用 Zimbra 0-Day 漏洞，零点击邮箱秒没",
+    "https://mp.weixin.qq.com/s/rKC3cCHyeEamnFoj5haqIg": "Node 单线程也有竞态：Parse Server 多 OAuth2 Provider CVE-2026-32242漏洞分析",
+    "https://mp.weixin.qq.com/s/MERCrvgaEpI9rM47nFu2IQ": "安全能力重构 | D036篇 一次攻击为什么往往不止一个漏洞"
 }
