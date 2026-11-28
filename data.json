@@ -29176,5 +29176,8 @@
     "https://mp.weixin.qq.com/s/kJME5Zo4j0Kz9j3WMp9JBA": "LiteLLM MCP OAuth2 passthrough 认证绕过复现与分析",
     "https://mp.weixin.qq.com/s/V3OinR4jGBuxYgz-re79ew": "俄罗斯黑客利用 Zimbra 0-Day 漏洞，零点击邮箱秒没",
     "https://mp.weixin.qq.com/s/rKC3cCHyeEamnFoj5haqIg": "Node 单线程也有竞态：Parse Server 多 OAuth2 Provider CVE-2026-32242漏洞分析",
-    "https://mp.weixin.qq.com/s/MERCrvgaEpI9rM47nFu2IQ": "安全能力重构 | D036篇 一次攻击为什么往往不止一个漏洞"
+    "https://mp.weixin.qq.com/s/MERCrvgaEpI9rM47nFu2IQ": "安全能力重构 | D036篇 一次攻击为什么往往不止一个漏洞",
+    "https://mp.weixin.qq.com/s/QRxF-m720FwXv9-tJV3RlA": "Cacti曝出4HTTP2ROOT零日漏洞: 无需认证，4个HTTP请求即可实现远程命令执行",
+    "https://mp.weixin.qq.com/s/v7p4OGnUNM9c9SpouUs-Fw": "只凭一个 SQL Server 弱口令就能拿下整台 Windows 主机：SqlKnife 把命令执行、权限提升、驻留后门全焊进了一个 3 万行的命令行",
+    "https://mp.weixin.qq.com/s/bdrmFn0KgQCOzXBdmWzEcQ": "Fail2Install：把系统限制变成 Drupal 的预认证 RCE"
 }
